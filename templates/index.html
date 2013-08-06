@@ -1,9 +1,9 @@
 {% include 'partials/head.html' %}
 {% include 'partials/header.html' %}
-:navigation
+{% include 'partials/navigation.html' %}
 	<div class=" content row expand"><!--begin content-->
-	@content
+	
 	 <canvas id="triangleGrid1" data-processing-sources="{{ page.root_path }}/public/docs/js/arcs.pde" width="500" height="500">
-    </div><!--end content-->
+    </div> <!--end content-->
  </div><!--end main container-->
 {% include 'partials/footer.html' %}

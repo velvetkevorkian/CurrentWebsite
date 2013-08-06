@@ -1,13 +1,13 @@
 <nav>
-	<ul id="navigation"">
+	<ul id="navigation">
 		<li>
-		<a href= "@root_path">Home</a>
+		<a href= "{{ page.root_path }}">Home</a>
 		</li>  
-	  foreach $root do
+	  {% for child in page.root %}
 		<li>
-		  <a href="@url">@title</a>
+		  <a href="{{ child.url }}">{{ child.title }}</a>
 		</li>
-	  endforeach
+{% endfor %}
 	  <li>
 		  <a href="http://velvetkevorkian.co.uk/blog/">Blog</a>
 		</li>
