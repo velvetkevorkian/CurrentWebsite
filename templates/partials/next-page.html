@@ -1,3 +1,5 @@
-foreach $next_sibling do
- <a href="@url">Next project: &rarr; @title</a></p>
-endforeach
+{% if page.next_sibling %}
+{% for sibling in page.next_sibling %}
+  <p><a href="{{ sibling.url }}">Next project</a>: &rarr; {{ sibling.title }}</p>
+{% endfor %}
+{% endif %}

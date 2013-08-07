@@ -1,18 +1,14 @@
-:head
-:header
-:navigation
+{% include 'partials/head.html' %}
+{% include 'partials/header.html' %}
+{% include 'partials/navigation.html' %}
       <div class="content" class="row expand"><!--begin content-->
-        @content
-        <p class="date">@date</p>
-        if @tag do
+          {{page.content}}
+        <p class="date">{{page.date}}</p>
           <!--<p><em>@tag</em></p>-->
-        endif
         <div class="sibling-nav"><!--begin sibling nav-->
-          if $siblings do
-        :previous-page :next-page
-          endif
+            {% include 'partials/previous-page.html' %} {% include 'partials/next-page.html' %}
         </div><!--end sibling nav-->
         
           </div><!--end content-->
       </div><!--end page container-->
-:footer
+{% include 'partials/footer.html' %}
