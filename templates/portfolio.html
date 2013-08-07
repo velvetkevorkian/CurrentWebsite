@@ -1,10 +1,10 @@
-:head
-		:header
-		:navigation
+{% include 'partials/head.html' %}
+{% include 'partials/header.html' %}
+{% include 'partials/navigation.html' %}
 		<div class="content row expand"><!--begin content-->
-			foreach $children do
-			:summary
-			endforeach
+            {% for child in page.children %}
+            {% include 'partials/summary.html' %}
+			{% endfor %}
 		</div><!--end content-->
 	</div><!--end main container-->
-	:footer
+{% include 'partials/footer.html' %}
