@@ -1,11 +1,11 @@
 <nav>
 	<ul id="navigation">
 		<li>
-		<a href= "{{ page.root_path }}">Home</a>
+		<a  href= "{{ page.root_path }}" {% if page.title=="Home" %} {{'class=active'|e}} {% endif %}>Home</a>
 		</li>  
 	  {% for child in page.root %}
 		<li>
-		  <a href="{{ child.url }}">{{ child.title }}</a>
+		  <a href="{{ child.url }}" {% if child.url == page.url %} {{'class=active'|e}} {% endif %}>{{ child.title }}</a>
 		</li>
 {% endfor %}
 	  <li>
