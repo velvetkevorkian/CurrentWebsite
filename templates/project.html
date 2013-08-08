@@ -6,7 +6,13 @@
         <p class="date">{{page.date}}</p>
           <!--<p><em>@tag</em></p>-->
         <div class="sibling-nav"><!--begin sibling nav-->
-            {% include 'partials/previous-page.html' %} {% include 'partials/next-page.html' %}
+            {% if page.is_first == false %}
+            {% include 'partials/previous-page.html' %} 
+            {% endif %}
+            
+            {% if page.is_last == false %}
+            {% include 'partials/next-page.html' %}
+            {% endif %}
         </div><!--end sibling nav-->
         
           </div><!--end content-->

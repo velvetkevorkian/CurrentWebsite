@@ -1,5 +1,3 @@
-{% if page.next_sibling %}
 {% for sibling in page.next_sibling %}
   <p><a href="{{ sibling.url }}">Next project</a>: &rarr; {{ sibling.title }}</p>
 {% endfor %}
-{% endif %}
