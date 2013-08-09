@@ -471,6 +471,44 @@ select {
   .column.large-uncentered.opposite,
   .columns.large-uncentered.opposite {
     float: right !important; } }
-p, h1, h2, h3, h4, h5, h6 {
+html, body {
+  height: 100%;
+  margin: 0; }
+
+.frame {
+  display: table;
+  height: 100%;
+  width: 100%; }
+
+.row {
+  display: table-row;
+  height: 1px; }
+
+.row.expand {
+  height: auto; }
+
+p, h1, h2, h3, h4, h5, h6, ul {
   font-family: "Jura", sans-serif;
   color: #4f4f4f; }
+
+header {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left; }
+
+.container {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left; }
+
+footer {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left;
+  float: none; }

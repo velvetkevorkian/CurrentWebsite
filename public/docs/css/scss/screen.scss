@@ -5,8 +5,23 @@
 @import "footer";
 
 
-p, h1, h2, h3, h4, h5, h6{
+p, h1, h2, h3, h4, h5, h6, ul{
     font-family: $jura;
     color: $main-color;
 }
+
+header{
+    @include grid-column($columns: 12);
+}
+
+.container{
+    @include grid-column($columns: 12);
+}
+
+footer{
+    @include grid-column($columns: 12);
+    float: none;
+}
+
+
     

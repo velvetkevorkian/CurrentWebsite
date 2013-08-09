@@ -1,0 +1,22 @@
+//for sticky footer
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.frame {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.row {
+  display: table-row;
+  height: 1px;
+}
+
+.row.expand {
+  height: auto;
+}
+
+//end sticky footer
