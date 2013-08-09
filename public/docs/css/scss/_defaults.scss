@@ -1,0 +1,44 @@
+//colour
+$main-bg-color: rgb(234, 234, 234);
+$main-color: rgb(79, 79, 79);
+$link-color: lighten($main-color, 20%);
+$border-col: lighten($link-color, 20%);
+$hover-link-color: rgb(229, 229, 229);
+$hover-background-color: rgb(99, 99, 99);
+
+
+//typography
+$jura: "Jura", sans-serif;
+
+
+//transitions
+$menu-trans: all 0.2s ease-in;
+
+@mixin drop-shadow{
+	-moz-box-shadow: $shadow;
+	-webkit-box-shadow: $shadow;
+	box-shadow: $shadow;
+	}
+
+@mixin transitions{
+	-webkit-transition: $menu-trans;
+	-moz-transition: $menu-trans;
+	-o-transition: $menu-trans;
+	-ms-transition: $menu-trans;
+	transition: $menu-trans;
+	}
+//default link styling
+@mixin link-rollover{
+	a{
+		text-decoration: none;
+		color: $link-color;
+		@include transitions;
+		&:visited{ 
+			color: $link-color;
+		}
+		&:hover{
+			color: $hover-link-color;
+			background-color: $hover-background-color;
+		}
+	}
+}

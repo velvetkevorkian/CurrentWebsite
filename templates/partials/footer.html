@@ -1,4 +1,4 @@
-<footer>
+<footer class="row">
 <p><a href= "http://velvetkevorkian.co.uk">[v {{page.site_version}} ] </a><a href="http://staceyapp.com/" target= "_blank">Running on Stacey {{page.stacey_version}}.</a></p>
 </footer>
 <!-- Check for Zepto support, load jQuery if necessary -->
@@ -7,7 +7,9 @@
     + ('__proto__' in {} ? 'zepto' : 'jquery')
     + '.js><\/script>');
 </script>
+<!--
 <script type="text/javascript" src="{{page.root_path}}/components/foundation/js/vendor/jquery.js"></script>
+-->
 <script type="text/javascript" src="{{page.root_path}}/components/foundation/js/foundation/foundation.js"></script>
 </body>
 </html>
