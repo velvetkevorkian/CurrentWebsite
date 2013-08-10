@@ -30,7 +30,7 @@ $menu-trans: all 0.2s ease-in;
 //default link styling
 @mixin link-rollover{
 	a{
-		text-decoration: none;
+        text-decoration: none;
 		color: $link-color;
 		@include transitions;
 		&:visited{ 

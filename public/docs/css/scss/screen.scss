@@ -4,6 +4,9 @@
 @import "../../../../components/foundation/scss/foundation/components/grid";
 @import "footer";
 
+body{
+    background-color: $main-bg-color;
+}
 
 p, h1, h2, h3, h4, h5, h6, ul{
     font-family: $jura;
@@ -11,15 +14,26 @@ p, h1, h2, h3, h4, h5, h6, ul{
 }
 
 header{
-    @include grid-column($columns: 12);
+    @include grid-row();
 }
 
 .container{
-    @include grid-column($columns: 12);
+    @include grid-row();
+}
+
+nav{
+    @include grid-row();
+    ul{
+        list-style: none;
+        li{
+            display: inline;
+            @include link-rollover;
+        }
+    }
 }
 
 footer{
-    @include grid-column($columns: 12);
+    @include grid-row();
     float: none;
 }
 
