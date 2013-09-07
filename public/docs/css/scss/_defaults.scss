@@ -1,3 +1,8 @@
+//settings
+$include-html-classes: false;
+$include-print-styles: false;
+
+
 //colour
 $main-bg-color: rgb(234, 234, 234);
 $main-color: rgb(79, 79, 79);
@@ -40,5 +45,8 @@ $menu-trans: all 0.2s ease-in;
 			color: $hover-link-color;
 			background-color: $hover-background-color;
 		}
+        &.active{
+            color: red;
+        }
 	}
 }
