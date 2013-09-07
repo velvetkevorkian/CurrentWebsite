@@ -3,6 +3,13 @@
 {% include 'partials/navigation.html' %}
 	<div class=" content row expand"><!--begin content-->
         {{page.content}}
+        {% block context %}
+            {% set page = get('/portfolio') %}
+            {% for child in page.children %}
+                {% include 'partials/summary.html' %}
+            {% endfor %}
+        {% endblock %}
+
 <!--	 <canvas id="triangleGrid1" data-processing-sources="{{ page.root_path }}/public/docs/js/arcs.pde" width="500" height="500">-->
     </div> <!--end content-->
  </div><!--end main container-->
