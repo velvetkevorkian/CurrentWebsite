@@ -15,6 +15,12 @@ p, h1, h2, h3, h4, h5, h6, ul{
 
 header{
     @include grid-row();
+    a{
+        &:link, &:hover, &:active, &:visited{
+            color: $main-color;
+            text-decoration: none;
+        }
+    }
 }
 
 .container{
@@ -32,6 +38,7 @@ nav{
         li{
             display: inline;
             @include link-rollover;
+            a{text-decoration: none;}
         }
     }
     
@@ -41,12 +48,21 @@ nav{
 footer{
     @include grid-row();
     float: none;
+    @include link-rollover;
+    
 }
 
 .project-summary{
     img{
         max-width: 100%;
     }
+    
+    @include link-rollover;
+}
+
+.project-details{
+    margin: 12px 0 8px 8px;
+    
 }
 
 

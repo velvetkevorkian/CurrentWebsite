@@ -34,6 +34,9 @@ header {
     display: table; }
   header:after {
     clear: both; }
+  header a:link, header a:hover, header a:active, header a:visited {
+    color: #4f4f4f;
+    text-decoration: none; }
 
 .container {
   width: 100%;
@@ -70,7 +73,7 @@ nav {
     nav ul li {
       display: inline; }
       nav ul li a {
-        text-decoration: none;
+        text-decoration: underline;
         color: #828282;
         -webkit-transition: all 0.2s ease-in;
         -moz-transition: all 0.2s ease-in;
@@ -84,6 +87,8 @@ nav {
           background-color: #636363; }
         nav ul li a.active {
           color: red; }
+      nav ul li a {
+        text-decoration: none; }
 
 footer {
   width: 100%;
@@ -99,6 +104,39 @@ footer {
     display: table; }
   footer:after {
     clear: both; }
+  footer a {
+    text-decoration: underline;
+    color: #828282;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in; }
+    footer a:visited {
+      color: #828282; }
+    footer a:hover {
+      color: #e5e5e5;
+      background-color: #636363; }
+    footer a.active {
+      color: red; }
 
 .project-summary img {
   max-width: 100%; }
+.project-summary a {
+  text-decoration: underline;
+  color: #828282;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in; }
+  .project-summary a:visited {
+    color: #828282; }
+  .project-summary a:hover {
+    color: #e5e5e5;
+    background-color: #636363; }
+  .project-summary a.active {
+    color: red; }
+
+.project-details {
+  margin: 12px 0 8px 8px; }
