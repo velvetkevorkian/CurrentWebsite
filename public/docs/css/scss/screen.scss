@@ -21,6 +21,10 @@ header{
     @include grid-row();
 }
 
+.content{
+    width: 100%;
+}
+
 nav{
     @include grid-row();
     ul{
@@ -37,6 +41,12 @@ nav{
 footer{
     @include grid-row();
     float: none;
+}
+
+.project-summary{
+    img{
+        max-width: 100%;
+    }
 }
 
 

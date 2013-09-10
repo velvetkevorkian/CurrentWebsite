@@ -49,6 +49,9 @@ header {
   .container:after {
     clear: both; }
 
+.content {
+  width: 100%; }
+
 nav {
   width: 100%;
   margin-left: auto;
@@ -96,3 +99,6 @@ footer {
     display: table; }
   footer:after {
     clear: both; }
+
+.project-summary img {
+  max-width: 100%; }
