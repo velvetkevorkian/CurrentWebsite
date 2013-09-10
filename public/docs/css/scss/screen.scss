@@ -60,9 +60,15 @@ footer{
     margin: 8px 0;
     img{
         max-width: 100%;
+        &:hover{
+            background-color: $main-bg-color;
+            opacity: 0.75;
+        }
+    }
+    p{
+        @include link-rollover;
     }
     
-    @include link-rollover;
 }
 
 .project-details{
