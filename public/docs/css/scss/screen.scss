@@ -15,6 +15,7 @@ p, h1, h2, h3, h4, h5, h6, ul{
 
 header{
     @include grid-row();
+    margin: 0 0 0 8px;
     a{
         &:link, &:hover, &:active, &:visited{
             color: $main-color;
@@ -29,6 +30,9 @@ header{
 
 .content{
     width: 100%;
+    p{
+        margin: 0 0 0 8px;
+    }
 }
 
 nav{
@@ -53,6 +57,7 @@ footer{
 }
 
 .project-summary{
+    margin: 8px 0;
     img{
         max-width: 100%;
     }
@@ -61,7 +66,7 @@ footer{
 }
 
 .project-details{
-    margin: 12px 0 8px 8px;
+    //margin: 12px 0 2px 8px;
     
 }
 
