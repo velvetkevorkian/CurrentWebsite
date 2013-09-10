@@ -126,7 +126,13 @@ footer {
 .project-summary {
   margin: 8px 0; }
   .project-summary img {
-    max-width: 100%; }
+    max-width: 100%;
+    opacity: 1.0;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in; }
     .project-summary img:hover {
       background-color: #eaeaea;
       opacity: 0.75; }
