@@ -131,8 +131,7 @@ footer {
 .project-summary {
   margin: 8px 0; }
   .project-summary img {
-    width: 100%;
-    max-width: 800px;
+    max-width: 100%;
     opacity: 1.0;
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
