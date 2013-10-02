@@ -90,15 +90,16 @@ footer{
 }
 
 .project-details{
-    @media #{$small}{
-        position: absolute;
-    }
-    left: -8px;
-    top: 25%;
-    margin: 0;
-    padding: 6px 6px 6px 18px;
+    margin: 0 0 2px 18px;    
     font-size: 1.1em;
     background-color: transparentize($main-bg-color, 0.1);
+    @media #{$small}{
+        position: absolute;
+        padding: 6px 6px 6px 18px;
+        left: -8px;
+        top: 25%;
+        margin: 0;
+    }
     a{
         text-decoration: none;
         
@@ -108,7 +109,7 @@ footer{
 .contactIcons{
     font-family: vkIcons;
     font-size: 1.25em;
-    margin: -12px 0 12px 8px;
+    margin: 0 0 12px 8px;
     a, a:link, a:visited{
         text-decoration: none;
         color: $main-color;

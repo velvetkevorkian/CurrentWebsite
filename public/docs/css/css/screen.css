@@ -156,22 +156,23 @@ footer {
     transition: all 0.2s ease-in; }
 
 .project-details {
-  left: -8px;
-  top: 25%;
-  margin: 0;
-  padding: 6px 6px 6px 18px;
+  margin: 0 0 2px 18px;
   font-size: 1.1em;
   background-color: rgba(234, 234, 234, 0.9); }
   @media only screen and (min-width: 768px) {
     .project-details {
-      position: absolute; } }
+      position: absolute;
+      padding: 6px 6px 6px 18px;
+      left: -8px;
+      top: 25%;
+      margin: 0; } }
   .project-details a {
     text-decoration: none; }
 
 .contactIcons {
   font-family: vkIcons;
   font-size: 1.25em;
-  margin: -12px 0 12px 8px; }
+  margin: 0 0 12px 8px; }
   .contactIcons a, .contactIcons a:link, .contactIcons a:visited {
     text-decoration: none;
     color: #4f4f4f; }
