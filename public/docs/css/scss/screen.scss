@@ -38,17 +38,27 @@ header{
 }
 
 nav{
-    margin: 0; padding: 0;
+    //margin: 0 0 -10px 0; 
+    //padding: 0;
     
     @include grid-row();
     ul{
         list-style: none;
-        margin: 0 0 20px 8px;
+        margin: 0 0 20px 6px;
         padding: 0;
+        
         li{
             display: inline;
             @include link-rollover;
-            a{text-decoration: none;}
+            font-size: 1.25em;
+            margin: 0 -6px 0 0; 
+            padding: 0;
+            a{
+                text-decoration: none;
+                padding: 4px;
+                width: 100%;
+                height: 100%;
+            }
             
         }
     }
@@ -64,27 +74,61 @@ footer{
 }
 
 .project-summary{
-    margin: 8px 0;
+    margin: 8px 0 12px 0;
+    position: relative;
     img{
         max-width: 100%;
-        //max-width: 800px;
         opacity: 1.0;
-        @include transitions;
-        &:hover{
-            background-color: $main-bg-color;
-            opacity: 0.75;
-            
-        }
+        @include transitions;    
     }
-    p{
-        @include link-rollover;
-    }
-    
 }
 
 .project-details{
-    //margin: 12px 0 2px 8px;
-    
+    @media #{$small}{
+        position: absolute;
+    }
+    left: -8px;
+    top: 25%;
+    margin: 0;
+    padding: 6px;
+    font-size: 1.1em;
+    background-color: transparentize($main-bg-color, 0.1);
+    a{
+        text-decoration: none;
+        
+    }
+}
+
+.contactIcons{
+    font-family: vkIcons;
+    font-size: 1.25em;
+    margin: -12px 0 12px 8px;
+    a, a:link, a:visited{
+        text-decoration: none;
+        color: $main-color;
+    }
+}
+
+.twitter{
+    &:after{
+        content: "\f099";
+    }
+    &:hover:after{
+        color: blue;
+    }
+   
+}
+
+.email{
+    &:after{
+        content: "\f003";
+    }
+}
+
+.github{
+    &:after{
+        content: "\f09b";
+    }
 }
 
 

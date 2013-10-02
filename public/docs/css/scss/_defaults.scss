@@ -15,6 +15,17 @@ $hover-background-color: rgb(99, 99, 99);
 //typography
 $jura: "Jura", sans-serif;
 
+@font-face {
+	font-family: 'vkIcons';
+	src:url('../../fonts/vkIcons.eot');
+	src:url('../../fonts/vkIcons.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/vkIcons.woff') format('woff'),
+		url('../../fonts/vkIcons.ttf') format('truetype'),
+		url('../../fonts/vkIcons.svg#vkIcons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 //transitions
 $menu-trans: all 0.2s ease-in;
