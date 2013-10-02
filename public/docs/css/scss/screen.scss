@@ -32,15 +32,9 @@ header{
 
 .content{
     width: 100%;
-    p{
-        //margin: 0 0 0 8px;
-    }
 }
 
 nav{
-    //margin: 0 0 -10px 0; 
-    //padding: 0;
-    
     @include grid-row();
     ul{
         list-style: none;
@@ -65,11 +59,15 @@ nav{
 }
 
 h2{
+    font-size: 1.1em;
     margin: 0 0 0 6px;
+    @media #{$small}{
+        font-size: 1.5em;
+    }
 }
 
 p{
-    margin: 6px 0 12px 18px;
+    margin: 6px 0 12px 6px;
 }
 
 footer{
@@ -90,12 +88,12 @@ footer{
 }
 
 .project-details{
-    margin: 0 0 2px 18px;    
-    font-size: 1.1em;
+    margin: 0 0 2px 6px;    
+    font-size: 1em;
     background-color: transparentize($main-bg-color, 0.1);
     @media #{$small}{
         position: absolute;
-        padding: 6px 6px 6px 18px;
+        padding: 6px;
         left: -8px;
         top: 25%;
         margin: 0;
@@ -108,7 +106,10 @@ footer{
 
 .contactIcons{
     font-family: vkIcons;
-    font-size: 1.25em;
+    font-size: 1em;
+    @media #{$small}{
+        font-size: 1.25em;
+    }
     margin: 0 0 12px 8px;
     a, a:link, a:visited{
         text-decoration: none;

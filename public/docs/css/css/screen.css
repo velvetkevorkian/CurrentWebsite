@@ -108,10 +108,14 @@ nav {
         height: 100%; }
 
 h2 {
+  font-size: 1.1em;
   margin: 0 0 0 6px; }
+  @media only screen and (min-width: 768px) {
+    h2 {
+      font-size: 1.5em; } }
 
 p {
-  margin: 6px 0 12px 18px; }
+  margin: 6px 0 12px 6px; }
 
 footer {
   width: 100%;
@@ -156,13 +160,13 @@ footer {
     transition: all 0.2s ease-in; }
 
 .project-details {
-  margin: 0 0 2px 18px;
-  font-size: 1.1em;
+  margin: 0 0 2px 6px;
+  font-size: 1em;
   background-color: rgba(234, 234, 234, 0.9); }
   @media only screen and (min-width: 768px) {
     .project-details {
       position: absolute;
-      padding: 6px 6px 6px 18px;
+      padding: 6px;
       left: -8px;
       top: 25%;
       margin: 0; } }
@@ -171,8 +175,11 @@ footer {
 
 .contactIcons {
   font-family: vkIcons;
-  font-size: 1.25em;
+  font-size: 1em;
   margin: 0 0 12px 8px; }
+  @media only screen and (min-width: 768px) {
+    .contactIcons {
+      font-size: 1.25em; } }
   .contactIcons a, .contactIcons a:link, .contactIcons a:visited {
     text-decoration: none;
     color: #4f4f4f; }
