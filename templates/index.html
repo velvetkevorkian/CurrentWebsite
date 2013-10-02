@@ -1,9 +1,11 @@
 {% include 'partials/head.html' %}
 {% include 'partials/header.html' %}
-{% include 'partials/navigation.html' %}
+<!--{% include 'partials/navigation.html' %}-->
 {% include 'partials/contactIcons.html' %}
 	<div class=" content row expand"><!--begin content-->
+        <h2>About</h2>
         {{page.content}}
+        <h2>Projects</h2>
         {% block context %}
             {% set page = get('/portfolio') %}
             {% for child in page.children %}
