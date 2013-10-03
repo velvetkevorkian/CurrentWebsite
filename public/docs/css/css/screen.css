@@ -21,6 +21,11 @@ html, body {
 .row.expand {
   height: auto; }
 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 body {
   background-color: #eaeaea; }
 
@@ -143,6 +148,55 @@ footer {
     footer a:hover {
       color: #828282; }
 
+.projects {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  padding: 0;
+  margin: 0 -0.625em;
+  *zoom: 1; }
+  .projects:before, .projects:after {
+    content: " ";
+    display: table; }
+  .projects:after {
+    clear: both; }
+  .projects > li {
+    display: inline;
+    height: auto;
+    float: left;
+    padding: 0 0.625em 1.25em; }
+  .projects > li {
+    width: 100%;
+    padding: 0 0.625em 1.25em; }
+    .projects > li:nth-of-type(n) {
+      clear: none; }
+    .projects > li:nth-of-type(1n+1) {
+      clear: both; }
+  @media only screen and (min-width: 768px) {
+    .projects {
+      display: block;
+      padding: 0;
+      margin: 0 -6px;
+      *zoom: 1; }
+      .projects:before, .projects:after {
+        content: " ";
+        display: table; }
+      .projects:after {
+        clear: both; }
+      .projects > li {
+        display: inline;
+        height: auto;
+        float: left;
+        padding: 0 6px 12px; }
+      .projects > li {
+        width: 50%;
+        padding: 0 6px 12px; }
+        .projects > li:nth-of-type(n) {
+          clear: none; }
+        .projects > li:nth-of-type(2n+1) {
+          clear: both; } }
+
 .project-summary {
   margin: 8px 0 12px 0;
   position: relative; }
@@ -227,3 +281,5 @@ footer {
 
 .linkedin:after {
   content: "\f0e1"; }
+
+/*@ sourceMappingURL=screen.css.map */

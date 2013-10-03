@@ -10,12 +10,15 @@
 <!--        <h2>About:</h2>-->
         
         <h2>Projects:</h2>
+        <ul class="projects">
+            
         {% block context %}
             {% set page = get('/portfolio') %}
             {% for child in page.children %}
                 {% include 'partials/summary.html' %}
             {% endfor %}
         {% endblock %}
+            </ul>
     </div> <!--end content-->
  </div><!--end main container-->
 {% include 'partials/footer.html' %}
