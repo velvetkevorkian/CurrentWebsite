@@ -96,18 +96,19 @@ footer{
     @include block-grid($per-row: 1);
     @media #{$small}{
         @include block-grid($per-row: 2, $spacing: 12px);
-            padding-left: 12px;
-            
-            
-        }
+        padding-left: 12px;           
+    }
+    @media #{$medium}{
+        @include block-grid($per-row: 3, $spacing: 12px);
+        padding-left: 12px;           
+    }
 }
 
 .project-summary{
     margin: 8px 0 12px 0;
     position: relative;
     @media #{$small}{
-            margin: 0;
-            
+            margin: 0;   
         }
     img{
         max-width: 100%;
