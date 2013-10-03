@@ -1,7 +1,7 @@
 @import "defaults";
 @import "../../../../components/foundation/scss/foundation/variables";
 @import "../../../../components/foundation/scss/foundation/components/global";
-@import "../../../../components/foundation/scss/foundation/components/grid";
+//@import "../../../../components/foundation/scss/foundation/components/grid";
 @import "../../../../components/foundation/scss/foundation/components/block-grid";
 @import "footer";
 
@@ -22,7 +22,7 @@ p, h1, h2, h3, h4, h5, h6, ul{
 }
 
 header{
-    @include grid-row();
+    //@include grid-row();
     a{
         &:link, &:hover, &:active, &:visited{
             color: $main-color;
@@ -38,7 +38,7 @@ header{
 }
 
 .container{
-    @include grid-row();
+    //@include grid-row();
 }
 
 .content{
@@ -46,7 +46,7 @@ header{
 }
 
 nav{
-    @include grid-row();
+    //@include grid-row();
     ul{
         list-style: none;
         margin: 0 0 20px 6px;
@@ -82,7 +82,7 @@ p{
 }
 
 footer{
-    @include grid-row();
+    //@include grid-row();
     float: none;
     @include link-rollover;
     
