@@ -44,6 +44,8 @@ header {
   header a:link, header a:hover, header a:active, header a:visited {
     color: #4f4f4f;
     text-decoration: none; }
+  header a:focus {
+    outline: none; }
   header h1 {
     margin: 20px 0 8px 8px; }
 
@@ -88,19 +90,16 @@ nav {
       padding: 0; }
       nav ul li a {
         text-decoration: underline;
-        color: #828282;
+        color: #4f4f4f;
         -webkit-transition: all 0.2s ease-in;
         -moz-transition: all 0.2s ease-in;
         -o-transition: all 0.2s ease-in;
         -ms-transition: all 0.2s ease-in;
         transition: all 0.2s ease-in; }
         nav ul li a:visited {
-          color: #828282; }
+          color: #4f4f4f; }
         nav ul li a:hover {
-          color: #e5e5e5;
-          background-color: #636363; }
-        nav ul li a.active {
-          color: red; }
+          color: #828282; }
       nav ul li a {
         text-decoration: none;
         padding: 4px;
@@ -133,19 +132,16 @@ footer {
     clear: both; }
   footer a {
     text-decoration: underline;
-    color: #828282;
+    color: #4f4f4f;
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
     -ms-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in; }
     footer a:visited {
-      color: #828282; }
+      color: #4f4f4f; }
     footer a:hover {
-      color: #e5e5e5;
-      background-color: #636363; }
-    footer a.active {
-      color: red; }
+      color: #828282; }
 
 .project-summary {
   margin: 8px 0 12px 0;
@@ -171,26 +167,63 @@ footer {
       top: 25%;
       margin: 0; } }
   .project-details a {
-    text-decoration: none; }
+    text-decoration: none;
+    font-weight: bold; }
+    .project-details a:link, .project-details a:visited {
+      color: #4f4f4f; }
+    .project-details a:hover {
+      color: #828282; }
 
 .contactIcons {
   font-family: vkIcons;
-  font-size: 1em;
-  margin: 0 0 12px 8px; }
+  font-size: 1.2em;
+  position: relative;
+  margin: 2px 0 12px 8px; }
   @media only screen and (min-width: 768px) {
     .contactIcons {
-      font-size: 1.25em; } }
+      font-size: 1.35em; } }
+  .contactIcons a .linkText {
+    pointer-events: none;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    position: absolute;
+    left: 120px;
+    top: 2px;
+    opacity: 0;
+    font-family: "Jura", sans-serif;
+    font-size: 16px; }
   .contactIcons a, .contactIcons a:link, .contactIcons a:visited {
     text-decoration: none;
+    color: #4f4f4f;
+    margin-right: 18px; }
+    @media (min-width: 450px) {
+      .contactIcons a, .contactIcons a:link, .contactIcons a:visited {
+        margin-right: 8px; } }
+  .contactIcons a:after {
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in; }
+  .contactIcons a:hover:after {
+    color: #828282; }
+  .contactIcons a:hover {
     color: #4f4f4f; }
+    @media (min-width: 450px) {
+      .contactIcons a:hover .linkText {
+        opacity: 1; } }
 
 .twitter:after {
   content: "\f099"; }
-.twitter:hover:after {
-  color: blue; }
 
 .email:after {
   content: "\f003"; }
 
 .github:after {
   content: "\f09b"; }
+
+.linkedin:after {
+  content: "\f0e1"; }

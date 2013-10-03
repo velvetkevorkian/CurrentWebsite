@@ -7,9 +7,9 @@ $include-print-styles: false;
 $main-bg-color: rgb(234, 234, 234);
 $main-color: rgb(79, 79, 79);
 $link-color: lighten($main-color, 20%);
-$border-col: lighten($link-color, 20%);
-$hover-link-color: rgb(229, 229, 229);
-$hover-background-color: rgb(99, 99, 99);
+$border-color: lighten($link-color, 20%);
+$hover-link-color: lighten($main-color, 20%);//rgb(106, 73, 244);
+//$hover-background-color: rgb(99, 99, 99);
 
 
 //typography
@@ -47,18 +47,18 @@ $menu-trans: all 0.2s ease-in;
 @mixin link-rollover{
 	a{
         text-decoration: underline;
-		color: $link-color;
+		color: $main-color;
 		@include transitions;
 		&:visited{ 
-			color: $link-color;
+			color: $main-color;
 		}
 		&:hover{
 			color: $hover-link-color;
-			background-color: $hover-background-color;
+			//background-color: $hover-background-color;
 		}
-        &.active{
-            color: red;
-        }
+        //&.active{
+          //  color: red;
+        //}
         
        
 	}
