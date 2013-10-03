@@ -3,6 +3,7 @@ app
 extensions
 index.php
 LICENSE
+*.css.map
 
 logs
 .sass-cache

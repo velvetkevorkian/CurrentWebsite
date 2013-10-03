@@ -9,7 +9,6 @@ $main-color: rgb(79, 79, 79);
 $link-color: lighten($main-color, 20%);
 $border-color: lighten($link-color, 20%);
 $hover-link-color: lighten($main-color, 20%);//rgb(106, 73, 244);
-//$hover-background-color: rgb(99, 99, 99);
 
 
 //typography
@@ -54,13 +53,7 @@ $menu-trans: all 0.2s ease-in;
 		}
 		&:hover{
 			color: $hover-link-color;
-			//background-color: $hover-background-color;
 		}
-        //&.active{
-          //  color: red;
-        //}
-        
-       
 	}
     
 }
