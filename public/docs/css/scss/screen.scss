@@ -22,7 +22,6 @@ p, h1, h2, h3, h4, h5, h6, ul{
 }
 
 header{
-    //@include grid-row();
     a{
         &:link, &:hover, &:active, &:visited{
             color: $main-color;
@@ -33,56 +32,60 @@ header{
         }
     }
     h1{
-        margin: 20px 0 8px 8px;
+        margin: 20px 0 8px 4px;
+        @media #{$small}{
+            margin: 20px 0 8px 12px;
+        }
     }
 }
 
 .container{
-    //@include grid-row();
 }
 
 .content{
     width: 100%;
 }
 
-nav{
-    //@include grid-row();
-    ul{
-        list-style: none;
-        margin: 0 0 20px 6px;
-        padding: 0;
-        
-        li{
-            display: inline;
-            @include link-rollover;
-            font-size: 1.25em;
-            margin: 0 -6px 0 0; 
-            padding: 0;
-            a{
-                text-decoration: none;
-                padding: 4px;
-                width: 100%;
-                height: 100%;
-            }
-            
-        }
-    }    
-}
+//nav{
+//    ul{
+//        list-style: none;
+//        margin: 0 0 20px 6px;
+//        padding: 0;
+//        
+//        li{
+//            display: inline;
+//            @include link-rollover;
+//            font-size: 1.25em;
+//            margin: 0 -6px 0 0; 
+//            padding: 0;
+//            a{
+//                text-decoration: none;
+//                padding: 4px;
+//                width: 100%;
+//                height: 100%;
+//            }
+//            
+//        }
+//    }    
+//}
 
 h2{
     font-size: 1.1em;
     margin: 0 0 0 6px;
     @media #{$small}{
         font-size: 1.5em;
+        margin: 0 0 0 12px;
     }
 }
 
 p{
     margin: 6px 0 12px 6px;
+    @media #{$small}{
+        margin: 6px 0 12px 12px;
+    }
 }
 
 footer{
-    //@include grid-row();
     float: none;
     @include link-rollover;
     
@@ -144,10 +147,12 @@ footer{
     font-family: vkIcons;
     font-size: 1.2em;
     position: relative;
+    margin: 2px 0 12px 8px;
     @media #{$small}{
         font-size: 1.35em;
+        margin: 2px 0 12px 12px;
     }
-    margin: 2px 0 12px 8px;
+    
     a{    
         .linkText{
             pointer-events: none;
@@ -158,6 +163,9 @@ footer{
             opacity: 0;
             font-family: $jura;
             font-size: 16px;
+            @media #{$small}{
+                left: 135px;
+            }
             
         }
     }
