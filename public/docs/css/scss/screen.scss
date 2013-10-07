@@ -15,10 +15,19 @@ body{
     background-color: $main-bg-color;
 }
 
-p, h1, h2, h3, h4, h5, h6, ul{
+h1, h2, h3, h4, h5, h6, ul{
     font-family: $jura;
+    font-weight: normal;
+    font-style:normal;
     color: $main-color;
     
+}
+
+p{
+    font-family: $phil;
+    font-weight: normal;
+    font-style: normal;
+    color: $main-color; 
 }
 
 header{
@@ -228,5 +237,16 @@ footer{
     }
 }
 
+.project>ul{
+     @include block-grid($per-row: 1);
+    @media screen and (min-width: 1025px){
+        @include block-grid($per-row: 2, $spacing: 12px);
+        padding-left: 12px;           
+    }
+    @media #{$large}{
+        @include block-grid($per-row: 3, $spacing: 12px);
+        padding-left: 12px;           
+    }
+}
 
     
