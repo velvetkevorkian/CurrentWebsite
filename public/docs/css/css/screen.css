@@ -260,7 +260,8 @@ footer {
   display: block;
   padding: 0;
   margin: 0 0;
-  *zoom: 1; }
+  *zoom: 1;
+  position: relative; }
   .project > ul:before, .project > ul:after {
     content: " ";
     display: table; }

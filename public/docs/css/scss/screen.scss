@@ -5,6 +5,18 @@
 @import "../../../../components/foundation/scss/foundation/components/block-grid";
 @import "footer";
 
+@media #{$small}{
+    //
+}
+
+p{
+    //
+    @media #{$small}{
+        //
+    }
+}
+
+
 *{
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
@@ -110,10 +122,12 @@ footer{
         @include block-grid($per-row: 2, $spacing: 12px);
         padding-left: 12px;           
     }
+    
     @media #{$medium}{
         @include block-grid($per-row: 3, $spacing: 12px);
         padding-left: 12px;           
     }
+            
 }
 
 .project-summary{
@@ -139,6 +153,7 @@ footer{
         top: 25%;
         margin: 0;
     }
+            
     a{
         text-decoration: none;
         font-weight:bold;
@@ -236,9 +251,14 @@ footer{
         margin-left: -6px;
     }
 }
+        
+        
 
 .project>ul{
-     @include block-grid($per-row: 1);
+
+    @include block-grid($per-row: 1);
+            position: relative;
+        
     @media screen and (min-width: 1025px){
         @include block-grid($per-row: 2, $spacing: 12px);
         padding-left: 12px;           
@@ -248,5 +268,6 @@ footer{
         padding-left: 12px;           
     }
 }
+                
 
     
