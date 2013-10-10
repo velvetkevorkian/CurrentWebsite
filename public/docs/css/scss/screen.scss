@@ -3,6 +3,7 @@
 @import "../../../../components/foundation/scss/foundation/components/global";
 //@import "../../../../components/foundation/scss/foundation/components/grid";
 @import "../../../../components/foundation/scss/foundation/components/block-grid";
+@import "../../../../components/foundation/scss/foundation/components/flex-video";
 @import "footer";
 
 @media #{$small}{
@@ -267,6 +268,14 @@ footer{
         @include block-grid($per-row: 3, $spacing: 12px);
         padding-left: 12px;           
     }
+}
+                
+.vimeo-container{
+    @include flex-video-container;
+    margin: 0 0 0 -6px;
+    iframe{
+                        max-width: 99%;
+                    }
 }
                 
 

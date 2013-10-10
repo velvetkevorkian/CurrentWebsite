@@ -327,3 +327,27 @@ footer {
           clear: none; }
         .project > ul > li:nth-of-type(3n+1) {
           clear: both; } }
+
+.vimeo-container {
+  position: relative;
+  padding-top: 1.5625em;
+  padding-bottom: 52%;
+  height: 0;
+  margin-bottom: 1em;
+  overflow: hidden;
+  margin: 0 0 0 -6px; }
+  .vimeo-container.widescreen {
+    padding-bottom: 57.25%; }
+  .vimeo-container.vimeo {
+    padding-top: 0; }
+  .vimeo-container iframe,
+  .vimeo-container object,
+  .vimeo-container embed,
+  .vimeo-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  .vimeo-container iframe {
+    max-width: 99%; }
