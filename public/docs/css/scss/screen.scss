@@ -246,6 +246,9 @@ footer{
 .project{
     p{
         max-width: 100%; 
+        @media #{$small}{
+            margin-left: 0;
+            }
     }
     img{
         max-width: 100%;

@@ -252,6 +252,9 @@ footer {
 
 .project p {
   max-width: 100%; }
+  @media only screen and (min-width: 800px) {
+    .project p {
+      margin-left: 0; } }
 .project img {
   max-width: 100%; }
   @media only screen and (min-width: 800px) {
