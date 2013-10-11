@@ -249,7 +249,10 @@ footer{
     }
     img{
         max-width: 100%;
-        margin-left: -6px;
+        
+        @media #{$small}{
+            margin-left: -6px;
+        }
     }
 }
         
@@ -268,15 +271,21 @@ footer{
         @include block-grid($per-row: 3, $spacing: 12px);
         padding-left: 12px;           
     }
+                
 }
                 
 .vimeo-container{
     @include flex-video-container;
-    margin: 0 0 0 -6px;
-    iframe{
-                        max-width: 99%;
-                    }
+    padding-right: 6px;
+    @media #{$small}{
+        margin: 0 0 0 -6px;
+    }
 }
+                
+.hasVid{
+                    padding-right: 12px!important;
+                }
+                
                 
 
     

@@ -17,10 +17,10 @@ content: |
     <li><img src="http://farm6.staticflickr.com/5187/5837720536_8e11d97924_b.jpg " alt="Rendered for print")</li>
     
     
-    <li><div class= "vimeo-container">
+    <li class="hasVid"><div class= "vimeo-container">
     <iframe src="//player.vimeo.com/video/25155382?title=0&amp;byline=0&amp;portrait=0" width="1280" height="719" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></li>
         
-    <li>    
+    <li class= "hasVid">    
     <div class= "vimeo-container"> <iframe src="http://player.vimeo.com/video/60338437" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> </div></li>
     
     <li> <img src="http://farm9.staticflickr.com/8091/8594413943_1edcb4824e_b.jpg" alt="Screenshot from Royal Wood's The Glory"></li>
