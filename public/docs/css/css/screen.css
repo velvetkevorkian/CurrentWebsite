@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6, ul {
   font-style: normal;
   color: #4f4f4f; }
 
-p {
+p, project li {
   font-family: "Philosopher", serif;
   font-weight: normal;
   font-style: normal;
@@ -251,6 +251,10 @@ footer {
 .linkedin:after {
   content: "\f0e1"; }
 
+.project a:link, .project a:visited {
+  color: #4f4f4f; }
+.project a:hover {
+  color: #828282; }
 .project img {
   max-width: 100%; }
 
@@ -362,5 +366,3 @@ footer {
 
 .hasVid {
   padding-right: 12px !important; }
-
-/*# sourceMappingURL=screen.css.map */

@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6, ul{
     
 }
 
-p{
+p, project li{
     font-family: $phil;
     font-weight: normal;
     font-style: normal;
@@ -139,7 +139,6 @@ footer{
             
     a{
         text-decoration: none;
-        //font-weight:bold;
         &:link, &:visited{
             color: $main-color;
         }
@@ -245,7 +244,15 @@ footer{
 // |____|  \____|__  /\______  /_______  /_______  /                        
 //                 \/        \/        \/        \/                         
 .project{
-    //padding: 0 6px;
+    a{
+       // text-decoration: none;
+        &:link, &:visited{
+            color: $main-color;
+        }
+        &:hover{
+            color: $hover-link-color;
+        }
+    }
     img{
         max-width: 100%;
         @media #{$small}{
