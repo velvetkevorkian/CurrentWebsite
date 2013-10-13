@@ -122,7 +122,6 @@ footer{
     img{
         max-width: 100%;
         opacity: 1.0;
-//           
     }
 }
 
@@ -246,17 +245,11 @@ footer{
 // |____|  \____|__  /\______  /_______  /_______  /                        
 //                 \/        \/        \/        \/                         
 .project{
-    p{
-        max-width: 100%; 
-        @media #{$small}{
-            margin-left: 0;
-            }
-    }
+    //padding: 0 6px;
     img{
         max-width: 100%;
-        
         @media #{$small}{
-            margin-left: -6px;
+            
         }
     }
 }
@@ -264,17 +257,19 @@ footer{
         
 
 .project>ul{
-
     @include block-grid($per-row: 1);
     position: relative;
+    padding: 0 6px;
         
-    @media screen and (min-width: 1025px){
+    @media #{$small}{
         @include block-grid($per-row: 2, $spacing: 12px);
-        padding-left: 12px;           
+        margin: 0;
+        padding: 0 6px; 
     }
     @media #{$large}{
         @include block-grid($per-row: 3, $spacing: 12px);
-        padding-left: 12px;           
+        margin: 0;
+        padding: 0 6px;        
     }
 }
 
@@ -287,9 +282,8 @@ footer{
 }
             
 .hasVid{
-                    padding-right: 12px!important;
-                }
-                
-                
+    padding-right: 12px!important;
+}
+
 
     
