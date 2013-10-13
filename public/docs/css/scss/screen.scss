@@ -56,9 +56,6 @@ header{
     }
 }
 
-.container{
-}
-
 .content{
     width: 100%;
 }
@@ -291,11 +288,8 @@ footer{
     @include flex-video-container;
     padding-right: 6px;
     padding-left:6px;
-    @media #{$small}{
-        //margin: 0 0 0 -6px;
-    }
 }
-            
+
 .hasVid{
     padding-right: 6px!important;
 }
