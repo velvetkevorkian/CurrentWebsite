@@ -271,7 +271,6 @@ footer{
         margin-bottom: 6px;
         @media #{$small}{
             margin-bottom: -6px;
-//            padding-bottom: 
         }
         @include transitions(0.5s);
     }
