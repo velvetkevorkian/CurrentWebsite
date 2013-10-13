@@ -39,19 +39,19 @@ $menu-trans: all 0.2s ease-in;
 	box-shadow: $shadow;
 	}
 
-@mixin transitions{
-	-webkit-transition: $menu-trans;
-	-moz-transition: $menu-trans;
-	-o-transition: $menu-trans;
-	-ms-transition: $menu-trans;
-	transition: $menu-trans;
+@mixin transitions($time){
+	-webkit-transition: all $time ease-in;
+	-moz-transition: all $time ease-in;
+	-o-transition: all $time ease-in;
+	-ms-transition: all $time ease-in;
+	transition: all $time ease-in;
 	}
 //default link styling
 @mixin link-rollover{
 	a{
         text-decoration: underline;
 		color: $main-color;
-		@include transitions;
+		@include transitions(0.3s);
 		&:visited{ 
 			color: $main-color;
 		}

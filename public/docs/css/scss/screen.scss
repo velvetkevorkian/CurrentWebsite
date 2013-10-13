@@ -1,7 +1,6 @@
 @import "defaults";
 @import "../../../../components/foundation/scss/foundation/variables";
 @import "../../../../components/foundation/scss/foundation/components/global";
-//@import "../../../../components/foundation/scss/foundation/components/grid";
 @import "../../../../components/foundation/scss/foundation/components/block-grid";
 @import "../../../../components/foundation/scss/foundation/components/flex-video";
 @import "footer";
@@ -87,6 +86,7 @@ footer{
     max-width: 100%;
     margin: 0;
     padding: 0;
+    //@include transitions(0.5s);   
     @include block-grid($per-row: 1);
     @media #{$small}{
         @include block-grid($per-row: 2, $spacing: 12px);
@@ -103,13 +103,14 @@ footer{
 .project-summary{
     margin: 8px 0 12px 0;
     position: relative;
+    @include transitions(0.5s);   
     @media #{$small}{
             margin: 0;   
         }
     img{
         max-width: 100%;
         opacity: 1.0;
-        @include transitions;    
+//        @include transitions;    
     }
 }
 
@@ -150,7 +151,7 @@ footer{
     a{    
         .linkText{
             pointer-events: none;
-            @include transitions;
+            @include transitions(0.5s);
             position: absolute;
             left: 120px;
             top: 2px;
@@ -172,7 +173,7 @@ footer{
         }
     }
     a:after{
-        @include transitions;
+        @include transitions(0.5s);
     }
     a:hover:after{
         color: lighten($main-color, 20%);
