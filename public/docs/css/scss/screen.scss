@@ -293,6 +293,16 @@ footer{
 .hasVid{
     padding-right: 6px!important;
 }
+            
+.sibling-nav{
+    p{
+        @media #{$small}{
+            display: inline;
+            //.next{ float: right; }
+            //.prev{ float: left; }
+        }
+    }
+}
 
 
     

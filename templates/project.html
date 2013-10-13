@@ -3,18 +3,7 @@
 {% include 'partials/contactIcons.html' %}
       <div class="content project" class="row expand"><!--begin content-->
           {{page.content}}
-        <p class="date">{{page.date}}</p>
           <!--<p><em>@tag</em></p>-->
-        <div class="sibling-nav"><!--begin sibling nav-->
-            {% if page.is_first == false %}
-                {% include 'partials/previous-page.html' %} 
-            {% endif %}
-            
-            {% if page.is_last == false %}
-                {% include 'partials/next-page.html' %}
-            {% endif %}
-        </div><!--end sibling nav-->
-        
           </div><!--end content-->
       </div><!--end page container-->
 {% include 'partials/footer.html' %}

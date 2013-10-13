@@ -368,3 +368,7 @@ footer {
 
 .hasVid {
   padding-right: 6px !important; }
+
+@media only screen and (min-width: 800px) {
+  .sibling-nav p {
+    display: inline; } }
