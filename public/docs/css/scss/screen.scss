@@ -1,3 +1,11 @@
+//  ___________________________________ _____________ 
+// /   _____/\_   _____/\__    ___/    |   \______   \
+// \_____  \  |    __)_   |    |  |    |   /|     ___/
+// /        \ |        \  |    |  |    |  / |    |    
+///_______  //_______  /  |____|  |______/  |____|    
+//        \/         \/                               
+
+
 @import "defaults";
 @import "../../../../components/foundation/scss/foundation/variables";
 @import "../../../../components/foundation/scss/foundation/components/global";
@@ -78,26 +86,30 @@ footer{
     
 }
 
-
-
+//  ___ ___ ________      _____  _____________________  _____    ___________________
+// /   |   \\_____  \    /     \ \_   _____/\______   \/  _  \  /  _____/\_   _____/
+///    ~    \/   |   \  /  \ /  \ |    __)_  |     ___/  /_\  \/   \  ___ |    __)_ 
+//\    Y    /    |    \/    Y    \|        \ |    |  /    |    \    \_\  \|        \
+// \___|_  /\_______  /\____|__  /_______  / |____|  \____|__  /\______  /_______  /
+//       \/         \/         \/        \/                  \/        \/        \/ 
 
 .projects{
     list-style:none;
     max-width: 100%;
-    margin: 0;
-    padding: 0;
-    //@include transitions(0.5s);   
+    
     @include block-grid($per-row: 1);
+    margin-top: -4px;
     @media #{$small}{
         @include block-grid($per-row: 2, $spacing: 12px);
         padding-left: 12px; 
+        margin-top: 4px;
     }
     
     @media #{$medium}{
         @include block-grid($per-row: 3, $spacing: 12px);
-        padding-left: 12px;           
-    }
-            
+        padding-left: 12px;   
+        margin-top: 4px;
+    }            
 }
 
 .project-summary{
@@ -110,11 +122,12 @@ footer{
     img{
         max-width: 100%;
         opacity: 1.0;
-//        @include transitions;    
+//           
     }
 }
 
 .project-details{
+    font-family: $phil;
     margin: 0 0 2px 6px;    
     font-size: 1em;
     background-color: transparentize($main-bg-color, 0.1);
@@ -127,7 +140,7 @@ footer{
             
     a{
         text-decoration: none;
-        font-weight:bold;
+        //font-weight:bold;
         &:link, &:visited{
             color: $main-color;
         }
@@ -137,8 +150,14 @@ footer{
     }
 }
 
-.contactIcons{
-    
+//_________  ________    _______________________  ____________________
+//\_   ___ \ \_____  \   \      \__    ___/  _  \ \_   ___ \__    ___/
+///    \  \/  /   |   \  /   |   \|    | /  /_\  \/    \  \/ |    |   
+//\     \____/    |    \/    |    \    |/    |    \     \____|    |   
+// \______  /\_______  /\____|__  /____|\____|__  /\______  /|____|   
+//        \/         \/         \/              \/        \/          
+
+.contactIcons{    
     font-family: vkIcons;
     font-size: 1.2em;
     position: relative;
@@ -212,7 +231,20 @@ footer{
         content: "\f0e1";
     }
 }
+ 
         
+//____________________ ________        ____._______________________________ 
+//\______   \______   \\_____  \      |    |\_   _____/\_   ___ \__    ___/ 
+// |     ___/|       _/ /   |   \     |    | |    __)_ /    \  \/ |    |    
+// |    |    |    |   \/    |    \/\__|    | |        \\     \____|    |    
+// |____|    |____|_  /\_______  /\________|/_______  / \______  /|____|    
+//                  \/         \/                   \/         \/           
+//__________  _____    ___________________ _________                        
+//\______   \/  _  \  /  _____/\_   _____//   _____/                        
+// |     ___/  /_\  \/   \  ___ |    __)_ \_____  \                         
+// |    |  /    |    \    \_\  \|        \/        \                        
+// |____|  \____|__  /\______  /_______  /_______  /                        
+//                 \/        \/        \/        \/                         
 .project{
     p{
         max-width: 100%; 
