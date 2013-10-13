@@ -295,6 +295,8 @@ footer{
 }
             
 .sibling-nav{
+    margin-bottom: 6px;
+    margin-top: -6px;
     p{
         @media #{$small}{
             display: inline;
