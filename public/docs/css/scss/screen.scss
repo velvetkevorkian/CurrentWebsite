@@ -6,18 +6,6 @@
 @import "../../../../components/foundation/scss/foundation/components/flex-video";
 @import "footer";
 
-@media #{$small}{
-    //
-}
-
-p{
-    //
-    @media #{$small}{
-        //
-    }
-}
-
-
 *{
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
@@ -68,29 +56,6 @@ header{
     width: 100%;
 }
 
-//nav{
-//    ul{
-//        list-style: none;
-//        margin: 0 0 20px 6px;
-//        padding: 0;
-//        
-//        li{
-//            display: inline;
-//            @include link-rollover;
-//            font-size: 1.25em;
-//            margin: 0 -6px 0 0; 
-//            padding: 0;
-//            a{
-//                text-decoration: none;
-//                padding: 4px;
-//                width: 100%;
-//                height: 100%;
-//            }
-//            
-//        }
-//    }    
-//}
-
 h2{
     font-size: 1.1em;
     margin: 0 0 0 6px;
@@ -98,6 +63,7 @@ h2{
         font-size: 1.5em;
         margin: 0 0 0 12px;
     }
+    
 }
 
 p{
@@ -113,6 +79,9 @@ footer{
     
 }
 
+
+
+
 .projects{
     list-style:none;
     max-width: 100%;
@@ -121,7 +90,7 @@ footer{
     @include block-grid($per-row: 1);
     @media #{$small}{
         @include block-grid($per-row: 2, $spacing: 12px);
-        padding-left: 12px;           
+        padding-left: 12px; 
     }
     
     @media #{$medium}{
@@ -264,7 +233,7 @@ footer{
 .project>ul{
 
     @include block-grid($per-row: 1);
-            position: relative;
+    position: relative;
         
     @media screen and (min-width: 1025px){
         @include block-grid($per-row: 2, $spacing: 12px);
@@ -274,9 +243,8 @@ footer{
         @include block-grid($per-row: 3, $spacing: 12px);
         padding-left: 12px;           
     }
-                
 }
-                
+
 .vimeo-container{
     @include flex-video-container;
     padding-right: 6px;
@@ -284,7 +252,7 @@ footer{
         margin: 0 0 0 -6px;
     }
 }
-                
+            
 .hasVid{
                     padding-right: 12px!important;
                 }
