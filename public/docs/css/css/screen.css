@@ -30,13 +30,13 @@ body {
   background-color: #eaeaea; }
 
 h1, h2, h3, h4, h5, h6, ul {
-  font-family: "Jura", sans-serif;
+  font-family: "Linux Biolinum G";
   font-weight: normal;
   font-style: normal;
   color: #4f4f4f; }
 
 p, .project li {
-  font-family: "Philosopher", serif;
+  font-family: "Linux Libertine G";
   font-weight: normal;
   font-style: normal;
   color: #4f4f4f; }
@@ -176,7 +176,7 @@ footer {
     opacity: 1.0; }
 
 .project-details {
-  font-family: "Philosopher", serif;
+  font-family: "Linux Libertine G";
   margin: 0 0 2px 6px;
   font-size: 1em;
   background-color: rgba(234, 234, 234, 0.9); }
@@ -213,7 +213,7 @@ footer {
     left: 120px;
     top: 2px;
     opacity: 0;
-    font-family: "Jura", sans-serif;
+    font-family: "Linux Biolinum G";
     font-size: 16px; }
     @media only screen and (min-width: 800px) {
       .contactIcons a .linkText {

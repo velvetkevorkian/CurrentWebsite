@@ -15,8 +15,12 @@ $hover-link-color: lighten($main-color, 20%);//rgb(106, 73, 244);
 
 
 //typography
-$jura: "Jura", sans-serif;
-$phil: "Philosopher", serif;
+$jura: "Linux Biolinum G"; //"Exo 2.0"; //"Orbitron"; //"Jura", sans-serif;
+$phil: "Linux Libertine G"; //"Exo 2.0"; //"Philosopher", serif;
+
+*{
+    //font-weight:400;
+}
 
 @font-face {
 	font-family: 'vkIcons';
