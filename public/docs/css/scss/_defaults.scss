@@ -7,7 +7,7 @@ $flex-video-padding-bottom: 56.25%;
 $flex-video-padding-top: 0;
 $flex-video-margin-bottom: 0;
 //colour
-$main-bg-color: rgb(234, 234, 234);
+$main-bg-color: rgb(239, 239, 239);
 $main-color: rgb(79, 79, 79);
 $link-color: rgb(217, 148, 22);//lighten($main-color, 20%);
 $border-color: lighten($link-color, 20%);
@@ -15,7 +15,7 @@ $hover-link-color: lighten($main-color, 20%);//rgb(106, 73, 244);
 
 
 //typography
-$jura: "Linux Biolinum G"; //"Exo 2.0"; //"Orbitron"; //"Jura", sans-serif;
+$jura: "linux_biolinumregular"; //"Exo 2.0"; //"Orbitron"; //"Jura", sans-serif;
 $phil: "Linux Libertine G"; //"Exo 2.0"; //"Philosopher", serif;
 
 *{
@@ -24,13 +24,25 @@ $phil: "Linux Libertine G"; //"Exo 2.0"; //"Philosopher", serif;
 
 @font-face {
 	font-family: 'vkIcons';
-	src:url('../../fonts/vkIcons.eot');
-	src:url('../../fonts/vkIcons.eot?#iefix') format('embedded-opentype'),
-		url('../../fonts/vkIcons.woff') format('woff'),
-		url('../../fonts/vkIcons.ttf') format('truetype'),
-		url('../../fonts/vkIcons.svg#vkIcons') format('svg');
+	src:url('../../fonts/vkIcons/vkIcons.eot');
+	src:url('../../fonts/vkIcons/vkIcons.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/vkIcons/vkIcons.woff') format('woff'),
+		url('../../fonts/vkIcons/vkIcons.ttf') format('truetype'),
+		url('../../fonts/vkIcons/vkIcons.svg#vkIcons') format('svg');
 	font-weight: normal;
 	font-style: normal;
+}
+
+@font-face {
+    font-family: 'linux_biolinumregular';
+    src: url('../../fonts/biolinum/linbiolinum_rah-webfont.eot');
+    src: url('../../fonts/biolinum/linbiolinum_rah-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/biolinum/linbiolinum_rah-webfont.woff') format('woff'),
+         url('../../fonts/biolinum/linbiolinum_rah-webfont.ttf') format('truetype'),
+         url('../../fonts/biolinum/linbiolinum_rah-webfont.svg#linux_biolinumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 
