@@ -15,12 +15,9 @@ $hover-link-color: lighten($main-color, 20%);//rgb(106, 73, 244);
 
 
 //typography
-$jura: "linux_biolinumregular"; //"Exo 2.0"; //"Orbitron"; //"Jura", sans-serif;
-$phil: "Linux Libertine G"; //"Exo 2.0"; //"Philosopher", serif;
+$jura: 'linux_biolinumregular'; //"Exo 2.0"; //"Orbitron"; //"Jura", sans-serif;
+$phil: 'linux_libertineregular'; //"Exo 2.0"; //"Philosopher", serif;
 
-*{
-    //font-weight:400;
-}
 
 @font-face {
 	font-family: 'vkIcons';
@@ -45,6 +42,17 @@ $phil: "Linux Libertine G"; //"Exo 2.0"; //"Philosopher", serif;
 
 }
 
+@font-face {
+    font-family: 'linux_libertineregular';
+    src: url('../../fonts/libertine/linlibertine_rah-webfont.eot');
+    src: url('../../fonts/libertine/linlibertine_rah-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/libertine/linlibertine_rah-webfont.woff') format('woff'),
+         url('../../fonts/libertine/linlibertine_rah-webfont.ttf') format('truetype'),
+         url('../../fonts/libertine/linlibertine_rah-webfont.svg#linux_libertineregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 //transitions
 //$menu-trans: all 0.2s ease-in;

@@ -12,6 +12,13 @@
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'linux_libertineregular';
+  src: url("../../fonts/libertine/linlibertine_rah-webfont.eot");
+  src: url("../../fonts/libertine/linlibertine_rah-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/libertine/linlibertine_rah-webfont.woff") format("woff"), url("../../fonts/libertine/linlibertine_rah-webfont.ttf") format("truetype"), url("../../fonts/libertine/linlibertine_rah-webfont.svg#linux_libertineregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 html, body {
   height: 100%;
   margin: 0; }
@@ -43,7 +50,7 @@ h1, h2, h3, h4, h5, h6, ul {
   color: #4f4f4f; }
 
 p, .project li {
-  font-family: "Linux Libertine G";
+  font-family: "linux_libertineregular";
   font-weight: normal;
   font-style: normal;
   color: #4f4f4f; }
@@ -183,7 +190,7 @@ footer {
     opacity: 1.0; }
 
 .project-details {
-  font-family: "Linux Libertine G";
+  font-family: "linux_libertineregular";
   margin: 0 0 2px 6px;
   font-size: 1em;
   background-color: rgba(239, 239, 239, 0.9); }
