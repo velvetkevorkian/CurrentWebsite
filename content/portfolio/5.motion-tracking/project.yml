@@ -3,14 +3,13 @@ date: 2011/2013
 tag: Processing, computer vision 
 content: |
   <ul>
+  <li><img src="http://farm3.staticflickr.com/2103/5822430642_19aee56c4c_b.jpg" alt="Still from final piece 1"</li>
   <li>
   <p>This was the final project for my HND Computer Art and Design course, and was part of the <a href="http://cad2011.co.uk/">end of year show</a>. The brief was to create a "digital artefact" which was in some way related to <a href="http://en.wikipedia.org/wiki/St._Enoch_Square">St. Enoch Square</a>. I chose to look at the way people move through the area and different ways of interpreting that. You can follow how this project developed, and check out the code used, on my blog: <a href="http://kylemacquarrie.co.uk/blog/work-in-progress-tracking-movement-in-st-enoch-square/">1</a>, <a href="http://kylemacquarrie.co.uk/blog/st-enoch-square-slit-scan-video-experiment/">2</a>,  
     <a href="http://velvetkevorkian.co.uk/blog/another-slit-scan-image/">3</a>, <a href="http://kylemacquarrie.co.uk/blog/hd-movement-tracking-first-iteration/">4</a>, <a href="http://kylemacquarrie.co.uk/blog/hd-movement-tracking-further-and-final-iteration/">5</a>.</p>
     
     <p>The significantly rewritten 2013 version of this software was used in Royal Wood's video for <em>The Glory</em>. You can see it around the 2:35 mark in the video. Check out <a href="http://kylemacquarrie.co.uk/blog/the-glory/">this blog post</a> for more information and links.</p>
     </li>
-    
-    <li><img src="http://farm3.staticflickr.com/2103/5822430642_19aee56c4c_b.jpg" alt="Still from final piece 1"</li>
     
     <li><img src="http://farm3.staticflickr.com/2257/5822428816_c7f3972bec_b.jpg" alt= "Still 2"</img></li>
     
