@@ -24,7 +24,7 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6, ul{
-    font-family: $jura;
+    font-family: $sans;
     font-weight: normal;
     font-style:normal;
     color: $main-color;
@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6, ul{
 }
 
 p, .project li{
-    font-family: $phil;
+    font-family: $serif;
     font-weight: normal;
     font-style: normal;
     color: $main-color; 
@@ -96,13 +96,14 @@ footer{
     
     @include block-grid($per-row: 1);
     margin-top: -4px;
+   
     @media #{$small}{
         @include block-grid($per-row: 2, $spacing: 12px);
         padding-left: 12px; 
         margin-top: 4px;
     }
     
-    @media #{$medium}{
+    @media #{$large}{
         @include block-grid($per-row: 3, $spacing: 12px);
         padding-left: 12px;   
         margin-top: 4px;
@@ -123,7 +124,7 @@ footer{
 }
 
 .project-details{
-    font-family: $phil;
+    font-family: $serif;
     margin: 0 0 2px 6px;    
     font-size: 1em;
     background-color: transparentize($main-bg-color, 0.1);
@@ -170,7 +171,7 @@ footer{
             left: 120px;
             top: 2px;
             opacity: 0;
-            font-family: $jura;
+            font-family: $sans;
             font-size: 16px;
             @media #{$small}{
                 left: 135px;

@@ -11,12 +11,12 @@ $main-bg-color: rgb(239, 239, 239);
 $main-color: rgb(79, 79, 79);
 $link-color: rgb(217, 148, 22);//lighten($main-color, 20%);
 $border-color: lighten($link-color, 20%);
-$hover-link-color: lighten($main-color, 20%);//rgb(106, 73, 244);
+$hover-link-color: rgb(90, 7, 140); //lighten($main-color, 20%);//rgb(106, 73, 244);
 
 
 //typography
-$jura: 'linux_biolinumregular'; //"Exo 2.0"; //"Orbitron"; //"Jura", sans-serif;
-$phil: 'linux_libertineregular'; //"Exo 2.0"; //"Philosopher", serif;
+$sans: 'linux_biolinumregular', Helvetica, Arial, sans-serif; 
+$serif: 'linux_libertineregular', Georgia, serif; 
 
 
 @font-face {
@@ -74,13 +74,14 @@ $phil: 'linux_libertineregular'; //"Exo 2.0"; //"Philosopher", serif;
 @mixin link-rollover{
 	a{
         text-decoration: underline;
-		color: $main-color;
+		color: $link-color;
 		@include transitions(0.3s);
 		&:visited{ 
-			color: $main-color;
+			color: $link-color;
 		}
 		&:hover{
 			color: $hover-link-color;
+            background-color:$main-color;
 		}
 	}
     

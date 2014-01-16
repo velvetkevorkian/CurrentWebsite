@@ -44,13 +44,13 @@ body {
   background-color: #efefef; }
 
 h1, h2, h3, h4, h5, h6, ul {
-  font-family: "linux_biolinumregular";
+  font-family: "linux_biolinumregular", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #4f4f4f; }
 
 p, .project li {
-  font-family: "linux_libertineregular";
+  font-family: "linux_libertineregular", Georgia, serif;
   font-weight: normal;
   font-style: normal;
   color: #4f4f4f; }
@@ -87,16 +87,17 @@ footer {
   float: none; }
   footer a {
     text-decoration: underline;
-    color: #4f4f4f;
+    color: #d99416;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
     -ms-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in; }
     footer a:visited {
-      color: #4f4f4f; }
+      color: #d99416; }
     footer a:hover {
-      color: #828282; }
+      color: #5a078c;
+      background-color: #4f4f4f; }
 
 .projects {
   list-style: none;
@@ -148,7 +149,7 @@ footer {
           clear: none; }
         .projects > li:nth-of-type(2n+1) {
           clear: both; } }
-  @media only screen and (min-width: 1280px) {
+  @media only screen and (min-width: 1440px) {
     .projects {
       display: block;
       padding: 0;
@@ -190,7 +191,7 @@ footer {
     opacity: 1.0; }
 
 .project-details {
-  font-family: "linux_libertineregular";
+  font-family: "linux_libertineregular", Georgia, serif;
   margin: 0 0 2px 6px;
   font-size: 1em;
   background-color: rgba(239, 239, 239, 0.9); }
@@ -205,7 +206,7 @@ footer {
     .project-details a:link, .project-details a:visited {
       color: #4f4f4f; }
     .project-details a:hover {
-      color: #828282; }
+      color: #5a078c; }
 
 .contactIcons {
   font-family: vkIcons;
@@ -227,7 +228,7 @@ footer {
     left: 120px;
     top: 2px;
     opacity: 0;
-    font-family: "linux_biolinumregular";
+    font-family: "linux_biolinumregular", Helvetica, Arial, sans-serif;
     font-size: 16px; }
     @media only screen and (min-width: 800px) {
       .contactIcons a .linkText {
@@ -268,7 +269,7 @@ footer {
 .project a:link, .project a:visited {
   color: #4f4f4f; }
 .project a:hover {
-  color: #828282; }
+  color: #5a078c; }
 .project img {
   max-width: 100%; }
 
