@@ -160,19 +160,19 @@ footer{
     position: relative;
     margin: 2px 0 12px 8px;
     @media #{$small}{
-        font-size: 1.35em;
-        margin: 2px 0 12px 12px;
+        //font-size: 1.35em;
+        //margin: 2px 0 12px 12px;
     }
     
     a{    
         .linkText{
             pointer-events: none;
-            @include transitions(0.5s);
+            @include transitions(0.25s);
             position: absolute;
             left: 120px;
             top: 2px;
             opacity: 0;
-            font-family: $sans;
+            font-family: $serif;
             font-size: 16px;
             @media #{$small}{
                 left: 135px;
@@ -185,11 +185,11 @@ footer{
         color: $main-color;
         margin-right: 18px;
         @media (min-width: 450px){
-            margin-right: 8px;
+            //margin-right: 8px;
         }
     }
     a:after{
-        @include transitions(0.5s);
+        //@include transitions(0.5s);
     }
     a:hover:after{
         color: lighten($main-color, 20%);
