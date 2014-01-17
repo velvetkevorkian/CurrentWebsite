@@ -121,6 +121,7 @@ footer{
         max-width: 100%;
         //opacity: 1.0;
         @include drop-shadow;
+        @include corners;
     }
 }
 
@@ -157,7 +158,7 @@ footer{
 
 .contactIcons{    
     font-family: vkIcons;
-    font-size: 1.2em;
+    font-size: 1.5em;
     position: relative;
     margin: 2px 0 12px 8px;
     @media #{$small}{
@@ -212,18 +213,12 @@ footer{
 // |____|  \____|__  /\______  /_______  /_______  /                        
 //                 \/        \/        \/        \/                         
 .project{
-    a{
-       // text-decoration: none;
-        &:link, &:visited{
-            color: $main-color;
-        }
-        &:hover{
-            color: $hover-link-color;
-        }
-    }
+    @include link-rollover;
+    //@include transitions(0.15s);
     img{
         max-width: 100%;
         @include drop-shadow;
+        @include corners;
         @media #{$small}{
             
         }

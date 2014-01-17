@@ -88,11 +88,11 @@ footer {
   footer a {
     text-decoration: underline;
     color: #d99416;
-    -webkit-transition: all 0.2s ease-in;
-    -moz-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    -ms-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in; }
+    -webkit-transition: all 0.15s ease-in;
+    -moz-transition: all 0.15s ease-in;
+    -o-transition: all 0.15s ease-in;
+    -ms-transition: all 0.15s ease-in;
+    transition: all 0.15s ease-in; }
     footer a:link, footer a:visited {
       color: #4f4f4f; }
     footer a:hover {
@@ -189,7 +189,10 @@ footer {
     max-width: 100%;
     -moz-box-shadow: 3px 2px 8px 0px rgba(50, 50, 50, 0.5);
     -webkit-box-shadow: 3px 2px 8px 0px rgba(50, 50, 50, 0.5);
-    box-shadow: 3px 2px 8px 0px rgba(50, 50, 50, 0.5); }
+    box-shadow: 3px 2px 8px 0px rgba(50, 50, 50, 0.5);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px; }
 
 .project-details {
   font-family: "linux_biolinumregular", Helvetica, Arial, sans-serif;
@@ -215,7 +218,7 @@ footer {
 
 .contactIcons {
   font-family: vkIcons;
-  font-size: 1.2em;
+  font-size: 1.5em;
   position: relative;
   margin: 2px 0 12px 8px; }
   @media only screen and (min-width: 800px) {
@@ -224,11 +227,11 @@ footer {
   .contactIcons a {
     text-decoration: underline;
     color: #d99416;
-    -webkit-transition: all 0.2s ease-in;
-    -moz-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    -ms-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in; }
+    -webkit-transition: all 0.15s ease-in;
+    -moz-transition: all 0.15s ease-in;
+    -o-transition: all 0.15s ease-in;
+    -ms-transition: all 0.15s ease-in;
+    transition: all 0.15s ease-in; }
     .contactIcons a:link, .contactIcons a:visited {
       color: #4f4f4f; }
     .contactIcons a:hover {
@@ -249,15 +252,26 @@ footer {
 .linkedin:after {
   content: "\f0e1"; }
 
-.project a:link, .project a:visited {
-  color: #4f4f4f; }
-.project a:hover {
-  color: #5a078c; }
+.project a {
+  text-decoration: underline;
+  color: #d99416;
+  -webkit-transition: all 0.15s ease-in;
+  -moz-transition: all 0.15s ease-in;
+  -o-transition: all 0.15s ease-in;
+  -ms-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in; }
+  .project a:link, .project a:visited {
+    color: #4f4f4f; }
+  .project a:hover {
+    color: #d99416; }
 .project img {
   max-width: 100%;
   -moz-box-shadow: 3px 2px 8px 0px rgba(50, 50, 50, 0.5);
   -webkit-box-shadow: 3px 2px 8px 0px rgba(50, 50, 50, 0.5);
-  box-shadow: 3px 2px 8px 0px rgba(50, 50, 50, 0.5); }
+  box-shadow: 3px 2px 8px 0px rgba(50, 50, 50, 0.5);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px; }
 
 .project > ul {
   display: block;

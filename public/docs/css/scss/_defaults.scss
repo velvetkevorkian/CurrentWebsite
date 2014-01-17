@@ -56,6 +56,13 @@ $serif: 'linux_libertineregular', Georgia, serif;
 
 //transitions
 //$menu-trans: all 0.2s ease-in;
+$rad: 3px;
+@mixin corners{
+    -webkit-border-radius:$rad;
+    -moz-border-radius:$rad;
+    border-radius:$rad;
+    
+}
 
 $shadow: 3px 2px 8px 0px rgba(50, 50, 50, 0.5);
 
@@ -77,7 +84,7 @@ $shadow: 3px 2px 8px 0px rgba(50, 50, 50, 0.5);
 	a{
         text-decoration: underline;
 		color: $link-color;
-		@include transitions(0.2s);
+		@include transitions(0.15s);
 		&:link, &:visited{ 
 			color: $main-color;
 		}
