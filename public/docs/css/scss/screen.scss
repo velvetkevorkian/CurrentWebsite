@@ -21,6 +21,18 @@
 
 body{
     background-color: $main-bg-color;
+    
+    
+background: rgb(219,219,219); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgb(219,219,219) 0%, rgb(239,239,239) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgb(219,219,219)), color-stop(100%,rgb(239,239,239))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  rgb(219,219,219) 0%,rgb(239,239,239) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  rgb(219,219,219) 0%,rgb(239,239,239) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  rgb(219,219,219) 0%,rgb(239,239,239) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  rgb(219,219,219) 0%,rgb(239,239,239) 100%); /* W3C */
+
+background-size: 100%;
+
 }
 
 h1, h2, h3, h4, h5, h6, ul{
@@ -253,6 +265,7 @@ footer{
 
 .vimeo-container{
     @include flex-video-container;
+    @include drop-shadow;
     padding-right: 6px;
     padding-left:6px;
 }
