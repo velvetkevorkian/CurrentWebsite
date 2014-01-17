@@ -3,12 +3,15 @@ date: 2013
 tag: web, responsive 
 content: |
   - ![Report homepage](https://farm3.staticflickr.com/2871/11998512643_a60dd1862b_b.jpg)
+  - I spent three months over summer 2013 developing Telefónica UK/O2's [2012 Sustainability Report](http://o2sustainability.co.uk/2012). As our main client contact Kerry [describes](https://www.2degreesnetwork.com/groups/customer-engagement-marketing/resources/would-you-consider-using-interns-produce-your-sustainability-report/), the team at Telefónica asked their brand guardians at [Lambie-Nairn](http://www.lambie-nairn.com/) to recruit a pair of interns to build the report as an entirely digital project. I was selected as the front-end developer while Patricia was responsible for the visual design. 
   - ![Blueprint homepage](https://farm4.staticflickr.com/3770/11998220875_931a74c028_b.jpg)
+  - We spent some time initially getting to know the report, working out an information architecture that would work with the amount of material (over 20,000 words), generating concepts for the visual design,  and prototyping some of the interactive parts, which we then presented to the senior sustainability team at Telefónica. Once they approved it, I began coding the templates while Patricia finalised the detailed designs. 
   - ![CEO's Message](https://farm8.staticflickr.com/7331/11998512873_d8b83eb176_b.jpg)
   - ![40 Commitments ](https://farm3.staticflickr.com/2853/11998578274_4f9405c929_b.jpg)
   - ![Content page with content on left](https://farm4.staticflickr.com/3722/11998218225_6f1ed0d0e5_b.jpg)
+  - All the templates have a fully responsive layout, which I had to adapt from the full designs that Patricia provided. The complexity of the designs made this quite a challenge. There were also some challenging animations to get my teeth into: one of the centrepieces of the site is the [40 Commitments](http://o2sustainability.co.uk/2012/Welcome/our_commitments), complete with a vine growing down the page as you scroll. Fortunately I was mentored by the experienced developers from Lambie-Nairn's digital partners at [Morph London](http://morphlondon.com/), who also cast their pixel-perfect eyes over the templates for QA purposes.
   - ![Content page with content on right](https://farm4.staticflickr.com/3794/11998509903_3d2398a67f_b.jpg)
   - ![Site plan showing proposed templates](https://farm6.staticflickr.com/5539/11998508523_f4e0fb612a_b.jpg)
-  - ![Template wireframe example](https://farm8.staticflickr.com/7328/11998571584_181142384d_b.jpg)
+  - ![Template wireframe example](https://farm8.staticflickr.com/7328/11998571584_181142384d_b.jpg) 
+  - The feedback we've had about the site has been great. It's been written about elsewhere by [GoThinkBig](http://www.gothinkbig.co.uk/features/whats-it-like-to-work-in-web-design-for-telefonica-uk/) and in Lambie-Nairn's [blog](http://www.lambie-nairn.com/uncategorized/meet-kyle-and-patricia/), and [portfolio](http://www.lambie-nairn.com/case-study/telefonica-uk/), and of course I recommend checking out [the site itself](http://o2sustainability.co.uk/2012). 
   
-  - I spent three months over summer 2013 working on this project for Telefónica UK (better known as O2). As part of their sustainability commitments, the team at Telefónica decided to use this project as an opportunity to put their money
