@@ -137,12 +137,13 @@ footer{
     }
             
     a{
+        @include transitions(0.15s);
         text-decoration: none;
         &:link, &:visited{
             color: $main-color;
         }
         &:hover{
-            color: $hover-link-color;
+            color: $link-color;
         }
     }
 }
@@ -161,47 +162,15 @@ footer{
     margin: 2px 0 12px 8px;
     @media #{$small}{
         //font-size: 1.35em;
-        //margin: 2px 0 12px 12px;
+        margin: 2px 0 12px 12px;
+    }
+
+    @include link-rollover;
+    a{
+        text-decoration:none;
+        margin-right:18px;
     }
     
-    a{    
-        .linkText{
-            pointer-events: none;
-            @include transitions(0.25s);
-            position: absolute;
-            left: 120px;
-            top: 2px;
-            opacity: 0;
-            font-family: $serif;
-            font-size: 16px;
-            @media #{$small}{
-                left: 135px;
-            }
-            
-        }
-    }
-    a, a:link, a:visited{
-        text-decoration: none;
-        color: $main-color;
-        margin-right: 18px;
-        @media (min-width: 450px){
-            //margin-right: 8px;
-        }
-    }
-    a:after{
-        //@include transitions(0.5s);
-    }
-    a:hover:after{
-        color: lighten($main-color, 20%);
-    }
-    a:hover{
-        color: $main-color;
-        @media (min-width: 450px){
-            .linkText{
-                opacity: 1;
-            }
-        }
-    }
 }
 
 .twitter{

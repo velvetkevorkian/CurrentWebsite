@@ -77,13 +77,13 @@ $shadow: 3px 2px 8px 0px rgba(50, 50, 50, 0.5);
 	a{
         text-decoration: underline;
 		color: $link-color;
-		@include transitions(0.3s);
-		&:visited{ 
-			color: $link-color;
+		@include transitions(0.2s);
+		&:link, &:visited{ 
+			color: $main-color;
 		}
 		&:hover{
-			color: $hover-link-color;
-            background-color:$main-color;
+			color: $link-color;
+           
 		}
 	}
     

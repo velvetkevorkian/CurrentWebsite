@@ -88,16 +88,15 @@ footer {
   footer a {
     text-decoration: underline;
     color: #d99416;
-    -webkit-transition: all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
-    -o-transition: all 0.3s ease-in;
-    -ms-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in; }
-    footer a:visited {
-      color: #d99416; }
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in; }
+    footer a:link, footer a:visited {
+      color: #4f4f4f; }
     footer a:hover {
-      color: #5a078c;
-      background-color: #4f4f4f; }
+      color: #d99416; }
 
 .projects {
   list-style: none;
@@ -203,44 +202,40 @@ footer {
       top: 25%;
       margin: 0; } }
   .project-details a {
+    -webkit-transition: all 0.15s ease-in;
+    -moz-transition: all 0.15s ease-in;
+    -o-transition: all 0.15s ease-in;
+    -ms-transition: all 0.15s ease-in;
+    transition: all 0.15s ease-in;
     text-decoration: none; }
     .project-details a:link, .project-details a:visited {
       color: #4f4f4f; }
     .project-details a:hover {
-      color: #5a078c; }
+      color: #d99416; }
 
 .contactIcons {
   font-family: vkIcons;
   font-size: 1.2em;
   position: relative;
   margin: 2px 0 12px 8px; }
-  .contactIcons a .linkText {
-    pointer-events: none;
-    -webkit-transition: all 0.25s ease-in;
-    -moz-transition: all 0.25s ease-in;
-    -o-transition: all 0.25s ease-in;
-    -ms-transition: all 0.25s ease-in;
-    transition: all 0.25s ease-in;
-    position: absolute;
-    left: 120px;
-    top: 2px;
-    opacity: 0;
-    font-family: "linux_libertineregular", Georgia, serif;
-    font-size: 16px; }
-    @media only screen and (min-width: 800px) {
-      .contactIcons a .linkText {
-        left: 135px; } }
-  .contactIcons a, .contactIcons a:link, .contactIcons a:visited {
+  @media only screen and (min-width: 800px) {
+    .contactIcons {
+      margin: 2px 0 12px 12px; } }
+  .contactIcons a {
+    text-decoration: underline;
+    color: #d99416;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in; }
+    .contactIcons a:link, .contactIcons a:visited {
+      color: #4f4f4f; }
+    .contactIcons a:hover {
+      color: #d99416; }
+  .contactIcons a {
     text-decoration: none;
-    color: #4f4f4f;
     margin-right: 18px; }
-  .contactIcons a:hover:after {
-    color: #828282; }
-  .contactIcons a:hover {
-    color: #4f4f4f; }
-    @media (min-width: 450px) {
-      .contactIcons a:hover .linkText {
-        opacity: 1; } }
 
 .twitter:after {
   content: "\f099"; }
