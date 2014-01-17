@@ -64,6 +64,19 @@ $rad: 3px;
     
 }
 
+@mixin right-corners{
+    -webkit-border-top-right-radius:$rad;
+    -moz-border-top-right-radius:$rad;
+    border-top-right-radius:$rad;
+    
+     -webkit-border-bottom-right-radius:$rad;
+    -moz-border-bottom-right-radius:$rad;
+    border-bottom-right-radius:$rad;
+    
+
+    
+}
+
 $shadow: 3px 2px 8px 0px rgba(50, 50, 50, 0.5);
 
 @mixin drop-shadow{

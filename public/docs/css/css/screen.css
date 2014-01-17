@@ -212,7 +212,13 @@ footer {
 .project-details {
   font-family: "linux_biolinumregular", Helvetica, Arial, sans-serif;
   margin: 0 0 2px 6px;
-  background-color: rgba(239, 239, 239, 0.9); }
+  background-color: rgba(239, 239, 239, 0.9);
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px; }
   @media only screen and (min-width: 800px) {
     .project-details {
       position: absolute;
