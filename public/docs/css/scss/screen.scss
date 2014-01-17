@@ -141,14 +141,17 @@ footer{
     font-family: $sans;
     margin: 0 0 2px 6px;    
     //font-size: 1em;
-    background-color: transparentize($main-bg-color, 0.1);
-    @include right-corners;
+    //background-color: transparent;
+    
     
     @media #{$small}{
         position: absolute;
         padding: 6px;
         top: 25%;
         margin: 0;
+        background-color: transparentize($main-bg-color, 0.1);
+        @include right-corners;
+        @include drop-shadow;
     }
             
     a{
