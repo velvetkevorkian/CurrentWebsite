@@ -1,5 +1,5 @@
 <footer class="row">
-    {% if page.title != 'Home' %}
+    {% if page.title != 'Home' and page.title != '404' %}
     <p class="date">{{page.date}}</p>
     <div class="sibling-nav"><!--begin sibling nav-->
             {% if page.is_first == false %}
