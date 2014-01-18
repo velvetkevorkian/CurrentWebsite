@@ -131,7 +131,6 @@ footer{
         }
     img{
         max-width: 100%;
-        //opacity: 1.0;
         @include drop-shadow;
         @include corners;
     }
@@ -139,10 +138,7 @@ footer{
 
 .project-details{
     font-family: $sans;
-    margin: 0 0 2px 6px;    
-    //font-size: 1em;
-    //background-color: transparent;
-    
+    margin: 0 0 2px 6px;        
     
     @media #{$small}{
         position: absolute;
