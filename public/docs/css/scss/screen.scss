@@ -37,7 +37,7 @@ body{
     background: radial-gradient(ellipse at center,  rgb(219,219,219) 0%,rgb(239,239,239) 100%); /* W3C */
     
     background-size: 100%;
-
+    
 }
 
 h1, h2, h3, h4, h5, h6, ul{
@@ -53,6 +53,13 @@ p, .project li{
     font-weight: normal;
     font-style: normal;
     color: $main-color; 
+}
+
+a{
+    img{
+        outline: none;
+        border: none;
+    }
 }
 
 header{
@@ -75,6 +82,7 @@ header{
 
 .content{
     width: 100%;
+    
 }
 
 h2{
@@ -110,6 +118,7 @@ footer{
 .projects{
     list-style:none;
     width: 100%;
+    padding: 0 6px !important;
     
     @include block-grid($per-row: 1);
     margin-top: -4px;
@@ -133,6 +142,7 @@ footer{
     margin: 8px 0 12px 0;
     position: relative;
     width: 100%;
+    padding: 0 4px;
     @include transitions(0.5s);   
     @media #{$small}{
             margin: 0;   
@@ -142,12 +152,15 @@ footer{
         width: 100%;
         @include drop-shadow;
         @include corners;
+        
     }
+
+    
 }
 
 .project-details{
     font-family: $sans;
-    margin: 0 0 2px 6px;        
+    margin: 0 0 2px 0;        
     
     @media #{$small}{
         position: absolute;
@@ -235,7 +248,6 @@ footer{
 //                 \/        \/        \/        \/                         
 .project{
     @include link-rollover;
-    //@include transitions(0.15s);
     img{
         max-width: 100%;
         width: 100%;
