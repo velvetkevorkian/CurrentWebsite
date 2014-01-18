@@ -4,7 +4,7 @@ description: A mechanical graph showing average traffic speeds from New York Cit
 tag: Processing, Arduino
 content: |
   - ![Traffic State](http://farm9.staticflickr.com/8376/8597130439_938c282dc2_b.jpg)
-  - Traffic State is a physical visualisation of traffic in New York City, based on live data provided by the city's transport authority. It is a response to a brief called *21st Century Barometers*- physical devices which live in a domestic environment and provide useful daily data through the internet. The metal links hung below provide a mechanical graph of the average traffic speed for the past few hours.
+  - Traffic State is a physical visualisation of traffic in New York City, based on live data provided by the city's transport authority. It is a response to a brief called *21st Century Barometers*- physical devices which live in a domestic environment and provide useful daily data from the internet. The metal links hung below provide a mechanical graph of the average traffic speed for the past few hours.
   
      Working with a team of one other interaction designer and a product designer, we prototyped a number of different versions of this, from cardboard and string to the final version with laser-cut plywood. I developed a simple Processing program to parse the data and send the average speed to an Arduino inside the device, which updates regularly and powers the servos.     
   - ![Traffic State in context](http://farm9.staticflickr.com/8085/8598234040_dec1720907_b.jpg)
