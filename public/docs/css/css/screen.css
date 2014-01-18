@@ -120,10 +120,13 @@ footer {
     footer a:hover {
       color: #d99416; }
 
+@media screen and (max-width: 800px) {
+  #projects {
+    padding: 0 6px; } }
+
 .projects {
   list-style: none;
   width: 100%;
-  padding: 0 6px !important;
   display: block;
   padding: 0;
   margin: 0 0;

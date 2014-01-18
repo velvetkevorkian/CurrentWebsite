@@ -115,10 +115,16 @@ footer{
 // \___|_  /\_______  /\____|__  /_______  / |____|  \____|__  /\______  /_______  /
 //       \/         \/         \/        \/                  \/        \/        \/ 
 
+
+#projects{
+    @media screen and (max-width: 800px){
+        padding: 0 6px;
+    }
+}
 .projects{
     list-style:none;
     width: 100%;
-    padding: 0 6px !important;
+    
     
     @include block-grid($per-row: 1);
     margin-top: -4px;
