@@ -298,6 +298,10 @@ footer{
     padding-left:6px;
 }
 
+iframe{
+    @include corners;
+}
+
 .hasVid{
     padding-right: 6px!important;
 }
