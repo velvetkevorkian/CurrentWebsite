@@ -7,17 +7,32 @@
     <meta name="keywords" content="Kyle Macquarrie, velvetkevorkian, digital interaction design, dundee, glasgow, design, development">
     <meta name="viewport" content="width=device-width">
 
-    <meta property="og:url" content="{{page.permalink}}/" />
-    <meta property="og:title" content="Kyle Macquarrie {% if page.title %}|  {{page.title}} {% endif %}" />{% if page.description %}
-    <meta property="og:description" content="{{page.description}}">{% endif %}
-    <meta property="og:image" content="{{page.thumb.url}}" />
+    <meta property="og:url" content="http://kylemacquarrie.co.uk/{% if page.title != 'Home' %}{{page.permalink}}{% endif %}" />
+    <meta property="og:title" content="Kyle Macquarrie {% if page.title %}|  {{page.title}} {% endif %}" />
+    {% if page.description %}<meta property="og:description" content="{{page.description}}">{% endif %}
+    
+    {% if page.title != 'Home' %}
+    <meta property="og:image" content="http://kylemacquarrie.co.uk/content/portfolio/{{page.index}}.{{page.slug}}/thumb.jpg" /> 
+    {% endif %}
+    
+    {% if page.title == 'Home' %}
+    <meta property="og:image" content="http://kylemacquarrie.co.uk/content/index/thumb.png" />
+    {% endif %}
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@k_macquarrie">
     <meta name="twitter:creator" content="@k_macquarrie">
     <meta name="twitter:title" content="Kyle Macquarrie {% if page.title %}|  {{page.title}} {% endif %}">{% if page.description %}
     <meta name="twitter:description" content="{{page.description}}">{% endif %}
-    <meta name="twitter:image:src" content="{{page.thumb.url}}">
+    {% if page.title != 'Home' %}
+    <meta property="twitter:image:src" content="http://kylemacquarrie.co.uk/content/portfolio/{{page.index}}.{{page.slug}}/thumb.jpg" /> 
+    {% endif %}
+    
+    {% if page.title == 'Home' %}
+    <meta property="twitter:image:src" content="http://kylemacquarrie.co.uk/content/index/thumb.png" />
+    {% endif %}
+    
+    
     <link rel="shortcut icon" href="{{ page.root_path }}/km-fav-64.gif" />
     <title>Kyle Macquarrie {% if page.title %}| {{page.title}} {% endif %}</title>
     <link rel="stylesheet" href="{{ page.root_path }}/public/docs/css/css/screen.css" type="text/css" media="screen">
