@@ -188,26 +188,26 @@ footer{
 
 .twitter{
     &:after{
-        content: "\f099";
+        content: "\e600";
     }
    
 }
 
 .email{
     &:after{
-        content: "\f003";
+        content: "\e603";
     }
 }
 
 .github{
     &:after{
-        content: "\f09b";
+        content: "\e601";
     }
 }
 
 .linkedin{
     &:after{
-        content: "\f0e1";
+        content: "\e602";
     }
 }
  
@@ -277,11 +277,31 @@ footer{
 .sibling-nav{
     margin-bottom: 6px;
     margin-top: -6px;
+    
+    .next{ 
+             
+        &:after{
+            font-family: vkIcons;
+            content: "\e605";
+            margin-left: 6px;
+            position: relative;
+            top: 3px;
+        }
+    }
+    .prev{ 
+        &:before{
+            font-family: vkIcons;
+            content: "\e604";
+            margin-right: 6px;
+            position: relative;
+            top: 3px;
+        }
+    }
     p{
+       
         @media #{$small}{
             display: inline;
-            //.next{ float: right; }
-            //.prev{ float: left; }
+            
         }
     }
 }
