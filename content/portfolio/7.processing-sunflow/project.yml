@@ -1,5 +1,6 @@
 title: Processing and Sunflow
 date: 2011
+description: Combining the generative power of Processing with the photorealistic rendering capabilities of Sunflow.
 tag: Processing, Sunflow, raytracing
 content: |
     - ![red Sunflow mesh](http://farm6.staticflickr.com/5133/5482121704_cf39ca54af_b.jpg)    
