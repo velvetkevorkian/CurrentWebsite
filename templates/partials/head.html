@@ -1,37 +1,42 @@
 <!DOCTYPE HTML>
 <html>
-  <head>
+
+<head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <meta name="keywords" content="Kyle Macquarrie, velvetkevorkian, digital interaction design, dundee, glasgow, design, development" >
+
+    <meta name="keywords" content="Kyle Macquarrie, velvetkevorkian, digital interaction design, dundee, glasgow, design, development">
     <meta name="viewport" content="width=device-width">
+
     <meta property="og:url" content="{{page.permalink}}/" />
-    <meta property="og:title" content="Kyle Macquarrie {% if page.title %}|  {{page.title}} {% endif %}" />
-    {% if page.description %}<meta property="og:description" content="{{page.description}}"> {% endif %}
+    <meta property="og:title" content="Kyle Macquarrie {% if page.title %}|  {{page.title}} {% endif %}" />{% if page.description %}
+    <meta property="og:description" content="{{page.description}}">{% endif %}
     <meta property="og:image" content="{{page.thumb.url}}" />
+
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@k_macquarrie">
     <meta name="twitter:creator" content="@k_macquarrie">
-    <meta name="twitter:title" content="Kyle Macquarrie {% if page.title %}|  {{page.title}} {% endif %}">
-      {% if page.description %}<meta name="twitter:description" content="{{page.description}}"> {% endif %}
+    <meta name="twitter:title" content="Kyle Macquarrie {% if page.title %}|  {{page.title}} {% endif %}">{% if page.description %}
+    <meta name="twitter:description" content="{{page.description}}">{% endif %}
     <meta name="twitter:image:src" content="{{page.thumb.url}}">
-    <link rel="shortcut icon" href="{{ page.root_path }}/km-fav-64.gif"/>
-    <title>Kyle Macquarrie {% if page.title %}|  {{page.title}} {% endif %}</title>
+    <link rel="shortcut icon" href="{{ page.root_path }}/km-fav-64.gif" />
+    <title>Kyle Macquarrie {% if page.title %}| {{page.title}} {% endif %}</title>
     <link rel="stylesheet" href="{{ page.root_path }}/public/docs/css/css/screen.css" type="text/css" media="screen">
-<!--    <script src="{{page.root_path}}/components/foundation/js/vendor/custom.modernizr.js"></script>-->
+
+
+
     <script type="text/javascript">
+        var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-39841245-1']);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+    </script>
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-39841245-1']);
-  _gaq.push(['_trackPageview']);
+</head>
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-   
-  </head>
-    <body class="frame">
-		<div class= "row expand"> <!--begin page container-->
+<body class="frame">
+    <div class="row expand">
