@@ -1,5 +1,6 @@
 title: Traffic State
 date: 2012
+description: A mechanical graph showing average traffic speeds from New York City, made with Processing and Arduino.
 tag: Processing, Arduino
 content: |
   - ![Traffic State](http://farm9.staticflickr.com/8376/8597130439_938c282dc2_b.jpg)
