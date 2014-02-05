@@ -4,16 +4,16 @@ description: A Processing artwork exploring movement through space.
 tag: Processing, computer vision 
 content: |
   <ul>
-  <li><img src="http://farm3.staticflickr.com/2103/5822430642_19aee56c4c_b.jpg" alt="Still from final piece 1"</li>
+  <li><img src="http://farm3.staticflickr.com/2103/5822430642_19aee56c4c_b.jpg" alt="Still from final piece 1" title="A still from the final video."></li>
   <li>
   <p>This was the final project for my HND Computer Art and Design course, and was part of the <a href="http://cad2011.co.uk/">end of year show</a>. The brief was to create a "digital artefact" which was in some way related to <a href="http://en.wikipedia.org/wiki/St._Enoch_Square">St. Enoch Square</a>. I chose to look at the way people move through the area and different ways of interpreting that. I wrote a Processing program to identify the differences between frames of a digital video, and experimented with different ways of showing that. You can follow how this project developed, and check out the code used, on my blog: <a href="http://kylemacquarrie.co.uk/blog/work-in-progress-tracking-movement-in-st-enoch-square/">1</a>, <a href="http://kylemacquarrie.co.uk/blog/st-enoch-square-slit-scan-video-experiment/">2</a>,  
     <a href="http://velvetkevorkian.co.uk/blog/another-slit-scan-image/">3</a>, <a href="http://kylemacquarrie.co.uk/blog/hd-movement-tracking-first-iteration/">4</a>, <a href="http://kylemacquarrie.co.uk/blog/hd-movement-tracking-further-and-final-iteration/">5</a>.</p>
     
     </li>
     
-    <li><img src="http://farm3.staticflickr.com/2257/5822428816_c7f3972bec_b.jpg" alt= "Still 2"</img></li>
+    <li><img src="http://farm3.staticflickr.com/2257/5822428816_c7f3972bec_b.jpg" alt= "Still 2" title="Another still from the video."></li>
     
-    <li><img src="http://farm6.staticflickr.com/5187/5837720536_8e11d97924_b.jpg " alt="Rendered for print")</li>
+    <li><img src="http://farm6.staticflickr.com/5187/5837720536_8e11d97924_b.jpg" alt="Rendered for print" title="An alternate rendering for print."></li>
     
     
     <li class="hasVid"><div class= "vimeo-container">
@@ -25,16 +25,11 @@ content: |
     <li class= "hasVid">    
     <div class= "vimeo-container"> <iframe src="http://player.vimeo.com/video/60338437" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> </div></li>
     
-    <li> <img src="http://farm9.staticflickr.com/8091/8594413943_1edcb4824e_b.jpg" alt="Screenshot from Royal Wood's The Glory"></li>
+    <li> <img src="http://farm9.staticflickr.com/8091/8594413943_1edcb4824e_b.jpg" alt="Screenshot from Royal Wood's The Glory" title="Scene from The Glory showing the effect in action."></li>
     
-    <li> <img src="http://farm9.staticflickr.com/8237/8594413911_c5f3404782_b.jpg" alt="Screenshot from Royal Wood's The Glory"</a> </li>
+    <li> <img src="http://farm9.staticflickr.com/8237/8594413911_c5f3404782_b.jpg" alt="Screenshot from Royal Wood's The Glory" title="Mixing the program output with the original footage."></li>
     
     
-    <li>    
-    <img src="http://farm6.staticflickr.com/5026/5822427614_02bca9e75e_b.jpg" alt="Process shots including the original footage">
-    </li>
-    <li>
-    <img src="http://farm6.staticflickr.com/5039/5821859773_a911dc8809_b.jpg" alt="post-production preview 2">
-    </li>
-    
+    <li><img src="http://farm6.staticflickr.com/5026/5822427614_02bca9e75e_b.jpg" alt="Process shots including the original footage" title="Work in progress shot showing the original footage from St Enoch Square."></li>
+    <li><img src="http://farm6.staticflickr.com/5039/5821859773_a911dc8809_b.jpg" alt="post-production preview 2" title="These are from the initial development phase of the project."></li>
   </ul>
