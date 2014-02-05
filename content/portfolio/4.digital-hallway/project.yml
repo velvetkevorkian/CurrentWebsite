@@ -3,16 +3,16 @@ date: 2013
 decription: A site to showcase all the projects from the Digital Hallway project.  
 tag: web, responsive 
 content: |
-  - ![Digital Hallway website](http://farm9.staticflickr.com/8100/8597338621_ff8484d1e2_b.jpg)
+  - ![Digital Hallway website](http://farm9.staticflickr.com/8100/8597338621_ff8484d1e2_b.jpg "Digital Hallway homepage")
   - I co-designed/developed this site for the joint Product/Interaction design exhibition held in January 2013. The site takes its cues from the presentation of the exhibition itself. Each project belongs to one of two themes, one with blue and one with brown wallpaper as an accent. We tried to make the branding as consistent as possible across all the material we created. 
         
         The site was designed and built in the space of about a fortnight, and was built from the start to be responsive. It's online at [socialdigital.dundee.ac.uk/digitalhallway](http://socialdigital.dundee.ac.uk/digitalhallway/); the piece I contributed to in the exhibition was [Traffic State](@root_path/portfolio/traffic-state/). Thanks to [Steve Swanton](https://steveswantondesign.wordpress.com/) for the photos.
-  - ![Branded lightbox](http://farm9.staticflickr.com/8091/8598359412_d16d43043e_b.jpg)
-  - ![Busy Families theme, with brown background](http://farm9.staticflickr.com/8105/8598359430_b0e1df978d_b.jpg)
-  - ![Amar's Barometers theme, with blue background](http://farm9.staticflickr.com/8519/8597255925_9abc93dabe_b.jpg)
+  - ![Branded lightbox](http://farm9.staticflickr.com/8091/8598359412_d16d43043e_b.jpg "Digital Hallway branded lighbox.")
+  - ![Busy Families theme, with brown background](http://farm9.staticflickr.com/8105/8598359430_b0e1df978d_b.jpg "A piece from the Busy Families theme, with brown wallpaper.")
+  - ![Amar's Barometers theme, with blue background](http://farm9.staticflickr.com/8519/8597255925_9abc93dabe_b.jpg "A piece from the Amar's Barometers theme, with blue wallpaper.")
   -  I implemented the site based on designs by [Tom Kinnear](http://socialdigital.dundee.ac.uk/~trkinnear/blog/). Tom's original Photoshop comps are below, although we substantially reworked and simplified the information structure of the site from what was originally proposed. 
-  - ![Home page mockup](http://farm9.staticflickr.com/8229/8598406130_38c3189961_b.jpg)
-  - ![Project page mockup](http://farm9.staticflickr.com/8103/8597302163_cb34d3ffbf_b.jpg)
-  - ![Busy families mockup](http://farm9.staticflickr.com/8230/8597302235_8f0f98d19d_b.jpg)
-  - ![Amar's barometers mockup](http://farm9.staticflickr.com/8243/8597302277_d529d0d5d5_b.jpg)  
+  - ![Home page mockup](http://farm9.staticflickr.com/8229/8598406130_38c3189961_b.jpg "Tom's mockup for the homepage. This didn't change much.")
+  - ![Project page mockup](http://farm9.staticflickr.com/8103/8597302163_cb34d3ffbf_b.jpg "Tom's project page mockup. Again, this is pretty similar to the final result.")
+  - ![Busy families mockup](http://farm9.staticflickr.com/8230/8597302235_8f0f98d19d_b.jpg "The original idea was to have separate pages outlining the differences between the two strands." )
+  - ![Amar's barometers mockup](http://farm9.staticflickr.com/8243/8597302277_d529d0d5d5_b.jpg "Instead we combined them into a single panel which can be called from any page.")  
  
