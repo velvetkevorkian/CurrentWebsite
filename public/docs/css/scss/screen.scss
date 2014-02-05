@@ -259,6 +259,8 @@ footer{
         width: 100%;
         @include drop-shadow;
         @include corners;
+        
+        
         @media #{$small}{
             
         }
