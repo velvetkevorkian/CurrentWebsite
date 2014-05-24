@@ -1,7 +1,7 @@
 title: ASCII Art for Brackets
 date: 2014
 description: A Brackets plugin for creating ASCII art
-tag: Brackets, JavaScript 
+tag: Brackets JavaScript 
 content: |
   - ![Screenshot of the plugin in action with a dark Brackets theme] (https://farm3.staticflickr.com/2936/14066187607_8f29cbd6e2_b.jpg)
   - A Brackets plugin which wraps [Figlet.js](https://github.com/patorjk/figlet.js) for using ASCII art fonts in code. I built this as an exercise in improving my JavaScript, and also as an opportunity to get used to using open source tools and workflows, like Git, bug reports and pull requests. You can install it through the Brackets extension manager or check out the code [on GitHub](https://github.com/velvetkevorkian/BracketsAsciiFonts).

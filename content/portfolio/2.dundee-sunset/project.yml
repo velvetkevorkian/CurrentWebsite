@@ -1,7 +1,7 @@
 title: Dundee Sunset
 date: 2013
 description: "Collating pictures of sunsets around Dundee into one place. Tweet your pictures tagged with #DundeeSunset to get involved."
-tag: web, responsive 
+tag: web responsive 
 content: |
   - ![Dundee Sunset homepage](https://farm4.staticflickr.com/3733/11997655686_4a4c47e067_b.jpg "The Dundee Sunset homepage in December 2013")
   - Dundee Sunset was a social media campaign initiated by [Tom Kinnear](http://socialdigital.dundee.ac.uk/~trkinnear/blog/). Inspired by the amazing sunsets we could see over the River Tay from our studio, he began encouraging people in Dundee to post their photos tagged with [#DundeeSunset](https://twitter.com/search?q=%23dundeesunset&src=typd) and it quickly took off. I put this page together in an evening to collate all the photos in one place. It was even posted on [STV's Dundee news page](http://dundee.stv.tv/34052/). Unfortunately, it doesn't show anything older than a week or two thanks to the vagaries of Twitter's API, but the site is still at [kylemacquarrie.co.uk/dundeeSunset](http://kylemacquarrie.co.uk/dundeeSunset/). 

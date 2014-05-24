@@ -1,7 +1,7 @@
 title: Plain White Tees
 date: 2013
 description: A lightweight responsive site to promote the 2013/14 Social Digital fundraiser.
-tag: web, responsive 
+tag: web responsive 
 content: |
   - ![Screenshot of the Plain White Tees website](https://farm3.staticflickr.com/2879/11997621484_c6c53cf6b0_b.jpg "The Plain White Tees landing screen.")
   - The combined ranks of the Social Digital class of 2014 (consisting of Digital Interaction Design and Product Design) put on a degree show fundraiser night at the infamous Dundee University Students Association. The theme was Plain White Tees: everyone wears a white shirt and gets a pen on entry, and proceeds to write/draw on everybody else. I put this page together using to promote and explain it. [Alistair Norris](http://www.anorris.co.uk/) did a a great job on the branding and print design, and I built the site around SVG graphics so it's super light and fast. The entire retina-ready site weighs in at 215KB, and I used [Foundation](http://foundation.zurb.com/) for the responsive grid.  The clock has counted down to zero, but the site is [online here](http://socialdigital.dundee.ac.uk/plainwhitetees/), and the source is [on Github](https://github.com/velvetkevorkian/pwt). 

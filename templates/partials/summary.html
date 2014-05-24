@@ -1,4 +1,4 @@
-			<li class="project-summary"> 
+			<li class="project-summary {{ child.tag }}"> 
                 <h3 class= "project-details"> {{child.date}}: <a href="{{ child.url }}">{{child.title}}</a></h3>
 				<a href= "{{ child.url}}"><img src="{{ child.thumb.url }}" alt="{{child.title}}"></a>
 			</li>

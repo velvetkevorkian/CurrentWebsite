@@ -1,7 +1,7 @@
 title: Apps for Artists
 date: 2012
 description: AN augmented reality iOS app to show off an artist's work.
-tag: openFrameworks, augmented reality, iOS
+tag: openFrameworks augmented-reality iOS
 content: |
   - ![The splash page, home screen and biography](http://farm9.staticflickr.com/8382/8601619494_ac14cf6be0_b.jpg "The app's splash page, main menu and biography page.")
   - An app designed to showcase the work of DJCAD fine art student [Mariella Verkerk](http://mariellaverkerk.tumblr.com/). Using her work to brand the app, we designed, tested and prototyped an iOS app. As well as a conventional gallery of work and biography, we used openFrameworks to create an augmented reality section where work Mariella had conceived as street art could be projected onto commonplace features. This was based on the idea of work being "hidden" in plain sight and the app notifying you when you were close to it. 
