@@ -1,6 +1,16 @@
 <script>    
     document.addEventListener('DOMContentLoaded',f);
+    var webLink = document.getElementById('web');
+    webLink.addEventListener('click', function(){
+       var els =  document.querySelectorAll('.project-summary:not(.web)');
+        Array.prototype.forEach.call(els, function(el, i){
+            el.classList.add('hidden');
+        });
+    });
     
+    
+                             
+                    
     
     
     function f(){
@@ -8,7 +18,7 @@
         
     }
     
-    function setupLink(target){
+    function setupLink(link){
         var t = document.getElementById(target);
         
     }

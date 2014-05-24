@@ -199,6 +199,8 @@ footer {
           clear: none; }
         .projects > li:nth-of-type(3n+1) {
           clear: both; } }
+  .projects li {
+    clear: none !important; }
 
 .project-summary {
   margin: 8px 0 12px 0;
@@ -253,6 +255,9 @@ footer {
       color: #4f4f4f; }
     .project-details a:hover {
       color: #d99416; }
+
+.hidden {
+  display: none !important; }
 
 .contactIcons {
   font-family: vkIcons;
