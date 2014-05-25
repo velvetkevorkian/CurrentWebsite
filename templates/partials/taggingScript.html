@@ -1,25 +1,44 @@
-<script>    
-    document.addEventListener('DOMContentLoaded',f);
-    var webLink = document.getElementById('web');
-    webLink.addEventListener('click', function(){
-       var els =  document.querySelectorAll('.project-summary:not(.web)');
-        Array.prototype.forEach.call(els, function(el, i){
-            el.classList.add('hidden');
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var webLink = document.getElementById('web');
+        setupLink(webLink);
+
+        var allLink = document.getElementById('all');
+        allLink.addEventListener('click', function () {
+            event.preventDefault();
+            deactivateAll();
+            unhideAll();
+            allLink.classList.add('active');
         });
     });
-    
-    
-                             
-                    
-    
-    
-    function f(){
-        console.log('Hello');
-        
+
+
+
+    function setupLink(link) {
+        link.addEventListener('click', function () {
+            deactivateAll();
+            unhideAll();
+            event.preventDefault();
+            link.classList.add('active');
+            var els = document.querySelectorAll('.project-summary:not(.' + link.getAttribute('href').split('#')[1] + ')');
+            Array.prototype.forEach.call(els, function (el, i) {
+                el.classList.add('hidden');
+            });
+
+        });
     }
     
-    function setupLink(link){
-        var t = document.getElementById(target);
-        
+    function deactivateAll() {
+        var els = document.querySelectorAll('.active');
+        Array.prototype.forEach.call(els, function (el, i){
+            el.classList.remove('active');
+        });
     }
+
+    function unhideAll() {
+        var els = document.querySelectorAll('.projects .hidden');
+        Array.prototype.forEach.call(els, function (el, i) {
+                el.classList.remove('hidden');
+            });
+        }
 </script>
