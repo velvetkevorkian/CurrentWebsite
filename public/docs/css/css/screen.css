@@ -262,9 +262,11 @@ footer {
   border: 1px solid red; }
 
 .filters {
-  top: -40px;
+  top: 40px;
+  position: relative;
+  margin-right: 6px;
+  z-index: 10;
   text-align: right;
-  height: 18px;
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
@@ -282,13 +284,11 @@ footer {
   margin: 0;
   padding: 0; }
 
-.closed #reveal {
-  display: none;
-  width: 0; }
+.closed {
+  display: none; }
 
-.open #reveal {
-  display: inline;
-  width: auto; }
+.open {
+  display: inherit; }
 
 #filterToggle {
   display: inline; }

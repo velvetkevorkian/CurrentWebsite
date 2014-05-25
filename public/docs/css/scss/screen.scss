@@ -205,11 +205,16 @@ footer{
 }
 
 .filters{
-    top: -40px;
-    //position: relative;
-    //margin-right: 6px;
+    
+   // margin-bottom: -50px;
+    //max-width: 50%;
+    //float: right;
+    top: 40px;
+    position: relative;
+    margin-right: 6px;
+    z-index: 10;
     text-align: right;
-    height: 18px;
+    //height: 18px;
     @include transitions(0.5s);
     ul{
         list-style: none;
@@ -228,17 +233,11 @@ footer{
 }
 
 .closed{
-    #reveal{
-        display: none;
-        width: 0;
-    }    
+    display: none;
 }
 
 .open{
-    #reveal{
-        display: inline;
-        width: auto;
-    }
+   display: inherit;
 }
 
 #filterToggle{
