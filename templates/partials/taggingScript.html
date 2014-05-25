@@ -1,7 +1,8 @@
 <script>
     document.addEventListener('DOMContentLoaded', function () {
-        var webLink = document.getElementById('web');
-        setupLink(webLink);
+        setupLink(document.getElementById('web'));
+        setupLink(document.getElementById('processing'));
+        setupLink(document.getElementById('openframeworks'));
 
         var allLink = document.getElementById('all');
         allLink.addEventListener('click', function () {
@@ -22,15 +23,19 @@
             link.classList.add('active');
             var els = document.querySelectorAll('.project-summary:not(.' + link.getAttribute('href').split('#')[1] + ')');
             Array.prototype.forEach.call(els, function (el, i) {
-                el.classList.add('hidden');
+                el.classList.add('fadeout');
+                setTimeout(function () {
+                    el.classList.add('hidden');
+
+                }, 500);
             });
 
         });
     }
-    
+
     function deactivateAll() {
         var els = document.querySelectorAll('.active');
-        Array.prototype.forEach.call(els, function (el, i){
+        Array.prototype.forEach.call(els, function (el, i) {
             el.classList.remove('active');
         });
     }
@@ -38,7 +43,12 @@
     function unhideAll() {
         var els = document.querySelectorAll('.projects .hidden');
         Array.prototype.forEach.call(els, function (el, i) {
-                el.classList.remove('hidden');
-            });
-        }
+            el.classList.remove('hidden');
+            if (el.classList.contains('fadeout')) {
+                setTimeout(function () {
+                    el.classList.remove('fadeout');
+                }, 10);
+            }
+        });
+    }
 </script>

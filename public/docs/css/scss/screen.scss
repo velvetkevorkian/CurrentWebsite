@@ -153,6 +153,7 @@ footer{
     position: relative;
     width: 100%;
     padding: 0 4px;
+    opacity: 1;
     @include transitions(0.5s);   
     @media #{$small}{
             margin: 0;   
@@ -194,14 +195,14 @@ footer{
     }
 }
 
+.fadeout{
+    opacity: 0;
+    //@include transitions(0.5s);
+}
+
 .hidden{
+    opacity: 1;
     display: none !important;
-    //clear: both !important;
-    //padding: 0 !important;
-    //opacity: 0;
-    //height: 0 !important;
-    //width: 0 !important;
-    //position: static !important;
 }
 
 .active{

@@ -1,7 +1,7 @@
 title: Processing and Sunflow
 date: 2011
 description: Combining the generative power of Processing with the photorealistic rendering capabilities of Sunflow.
-tag: Processing Sunflow raytracing
+tag: processing sunflow raytracing
 content: |
     - ![red Sunflow mesh](http://farm6.staticflickr.com/5133/5482121704_cf39ca54af_b.jpg "Randomised triangle mesh rings with varying levels of red.")    
     - ![grey Sunflow mesh](http://farm6.staticflickr.com/5134/5481521239_69af30cf37_b.jpg "The mesh is generated using ToxicLibs and Perlin noise.")
