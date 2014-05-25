@@ -275,26 +275,25 @@ footer {
   -o-transition: all 0.5s ease-in;
   -ms-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in; }
-  .filters ul {
-    list-style: none; }
-  .filters li {
-    display: inline-block; }
-
-#reveal {
-  max-height: 100%;
-  display: inline;
-  overflow: hidden;
-  margin: 0;
-  padding: 0; }
 
 .closed {
   display: none; }
 
 .open {
-  display: inherit; }
+  position: relative;
+  top: -35px;
+  width: 100%;
+  display: inherit;
+  padding-top: 18px; }
+
+#filterList {
+  text-align: center;
+  list-style: none;
+  z-index: -1; }
 
 #filterToggle {
-  display: inline; }
+  z-index: 20;
+  border: 1px solid green; }
 
 .contactIcons {
   font-family: vkIcons;
