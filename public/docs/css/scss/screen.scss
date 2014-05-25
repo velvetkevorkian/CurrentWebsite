@@ -195,11 +195,6 @@ footer{
     }
 }
 
-.fadeout{
-    opacity: 0;
-    //@include transitions(0.5s);
-}
-
 .hidden{
     opacity: 1;
     display: none !important;
@@ -207,6 +202,47 @@ footer{
 
 .active{
     border: 1px solid red;
+}
+
+.filters{
+    top: -40px;
+    //position: relative;
+    //margin-right: 6px;
+    text-align: right;
+    height: 18px;
+    @include transitions(0.5s);
+    ul{
+        list-style: none;
+    }
+    li{
+        display: inline-block;
+    }
+}
+
+#reveal{
+    max-height: 100%;
+    display: inline;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.closed{
+    #reveal{
+        display: none;
+        width: 0;
+    }    
+}
+
+.open{
+    #reveal{
+        display: inline;
+        width: auto;
+    }
+}
+
+#filterToggle{
+    display: inline;
 }
 
 //_________  ________    _______________________  ____________________

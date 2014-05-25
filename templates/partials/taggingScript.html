@@ -11,6 +11,18 @@
             unhideAll();
             allLink.classList.add('active');
         });
+        
+        var toggle = document.getElementById('filterToggle');
+        toggle.addEventListener('click', function() {
+            var span = document.getElementById('filters');   
+            if(span.classList.contains('closed')) {
+                span.classList.remove('closed');
+                span.classList.add('open');
+            } else {
+                span.classList.remove('open');
+                span.classList.add('closed');
+            }
+        });
     });
 
 

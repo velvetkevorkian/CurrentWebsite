@@ -4,13 +4,11 @@
 <div class="contact">
 {% include 'partials/contactIcons.html' %}
     </div>
-	<div class=" content row expand">
-        
-        <h2>Projects:</h2>
-            <div class="filters hide">
+	<div class="content row expand">
+         <div class="filters closed" id="filters">
                 <ul>
                     <li><a href="#" id="filterToggle">Filter</a></li>
-                    <span id="reveal" class="closed">
+                    <span id="reveal" >
                         <li><a href="#all" id="all">all</a></li> 
                         <li><a href="#web" id="web">web</a> </li>
                         <li><a href="#processing" id="processing">Processing</a></li>
@@ -18,6 +16,8 @@
                     </span>
                 </ul>
             </div>
+        <h2>Projects:</h2>
+           
         <ul class="projects" id="projects">
             
         {% block context %}

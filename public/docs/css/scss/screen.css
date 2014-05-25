@@ -257,15 +257,44 @@ footer {
     .project-details a:hover {
       color: #d99416; }
 
-.fadeout {
-  opacity: 0; }
-
 .hidden {
   opacity: 1;
   display: none !important; }
 
 .active {
   border: 1px solid red; }
+
+.filters {
+  top: -40px;
+  text-align: right;
+  height: 18px;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in; }
+  .filters ul {
+    list-style: none; }
+  .filters li {
+    display: inline-block; }
+
+#reveal {
+  max-height: 100%;
+  display: inline;
+  overflow: hidden;
+  margin: 0;
+  padding: 0; }
+
+.closed #reveal {
+  display: none;
+  width: 0; }
+
+.open #reveal {
+  display: inline;
+  width: auto; }
+
+#filterToggle {
+  display: inline; }
 
 .contactIcons {
   font-family: vkIcons;
