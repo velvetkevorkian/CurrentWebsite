@@ -201,18 +201,20 @@ footer{
 }
 
 .active{
-    border: 1px solid red;
+    font-weight: bold;
 }
 
 .filters{
     
   
-    top: 40px;
+    top: 42px;
     position: relative;
     margin-right: 6px;
+    margin-bottom: -12px;
     z-index: 10;
      text-align: right;
     @include transitions(0.5s);
+    @include link-rollover;
     
 }
 
@@ -230,16 +232,27 @@ footer{
 }
 
 #filterList{
-    text-align: center;
+    //text-align: center;
     list-style: none;
     z-index: -1;
+    margin-bottom: -46px;
+    font-family: $sans;
 }
 
 
 #filterToggle{
    z-index: 20;
-    border: 1px solid green;
+    font-family: $sans;
+    font-size: 1.2em;
     //display: inline;
+}
+
+.clicked{
+    &:before{
+        font-family: vkIcons;
+        content: "\e606";
+        font-size: 0.8em;
+    }
 }
 
 //_________  ________    _______________________  ____________________

@@ -6,17 +6,22 @@
 
         var allLink = document.getElementById('all');
         allLink.addEventListener('click', function () {
-            console.log('all clicked!');
             event.preventDefault();
             deactivateAll();
             unhideAll();
             allLink.classList.add('active');
         });
-        
+
         var toggle = document.getElementById('filterToggle');
-        toggle.addEventListener('click', function() {
-            var span = document.getElementById('filterList');   
-            if(span.classList.contains('closed')) {
+        toggle.addEventListener('click', function () {
+            event.preventDefault();
+            if (toggle.classList.contains('clicked')) {
+                toggle.classList.remove('clicked');
+            } else {
+                toggle.classList.add('clicked');
+            }
+            var span = document.getElementById('filterList');
+            if (span.classList.contains('closed')) {
                 span.classList.remove('closed');
                 span.classList.add('open');
             } else {
@@ -36,7 +41,7 @@
             link.classList.add('active');
             var els = document.querySelectorAll('.project-summary:not(.' + link.getAttribute('href').split('#')[1] + ')');
             Array.prototype.forEach.call(els, function (el, i) {
-                    el.classList.add('hidden');
+                el.classList.add('hidden');
             });
 
         });
