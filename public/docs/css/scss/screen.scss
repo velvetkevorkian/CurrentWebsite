@@ -216,6 +216,11 @@ footer{
     @include transitions(0.5s);
     @include link-rollover;
     
+    @media #{$small}{
+        top: 15px;
+        margin-right: 12px;
+    }
+    
 }
 
 .closed{
@@ -244,15 +249,22 @@ footer{
    z-index: 20;
     font-family: $sans;
     font-size: 1.2em;
+    text-decoration: none;
     //display: inline;
 }
 
 .clicked{
     &:before{
         font-family: vkIcons;
-        content: "\e606";
+        content: "\e607";
         font-size: 0.8em;
+       
     }
+     &:hover{
+         &:before{
+            color: red;
+        }
+     }
 }
 
 //_________  ________    _______________________  ____________________

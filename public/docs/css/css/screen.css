@@ -285,6 +285,10 @@ footer {
       color: #4f4f4f; }
     .filters a:hover {
       color: #d99416; }
+  @media only screen and (min-width: 800px) {
+    .filters {
+      top: 15px;
+      margin-right: 12px; } }
 
 .closed {
   display: none; }
@@ -305,12 +309,15 @@ footer {
 #filterToggle {
   z-index: 20;
   font-family: "linux_biolinumregular", Helvetica, Arial, sans-serif;
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  text-decoration: none; }
 
 .clicked:before {
   font-family: vkIcons;
-  content: "\e606";
+  content: "\e607";
   font-size: 0.8em; }
+.clicked:hover:before {
+  color: red; }
 
 .contactIcons {
   font-family: vkIcons;
