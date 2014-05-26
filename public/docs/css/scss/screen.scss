@@ -216,6 +216,7 @@ footer{
     z-index: 10;
      text-align: right;
     padding-right: 6px;
+    
     @include transitions(0.5s);
     @include link-rollover;
     
@@ -251,8 +252,12 @@ footer{
    z-index: 20;
     font-family: $sans;
     font-size: 1.2em;
-    text-decoration: none;
-    //display: inline;
+   // text-decoration: none;
+//    border: 1px solid transparentize($main-color, 0.4);
+//    padding: 0 3px;
+//     -webkit-border-radius:6px;
+//    -moz-border-radius:6px;
+//    border-radius:6px;
 }
 
 .clicked{

@@ -313,8 +313,7 @@ footer {
 #filterToggle {
   z-index: 20;
   font-family: "linux_biolinumregular", Helvetica, Arial, sans-serif;
-  font-size: 1.2em;
-  text-decoration: none; }
+  font-size: 1.2em; }
 
 .clicked:before {
   font-family: vkIcons;
