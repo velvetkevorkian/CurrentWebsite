@@ -175,6 +175,7 @@ footer{
     max-width: 80%;
     
     @media #{$small}{
+        max-width: 100%;
         position: absolute;
         padding: 6px;
         top: 25%;

@@ -229,6 +229,7 @@ footer {
   max-width: 80%; }
   @media only screen and (min-width: 800px) {
     .project-details {
+      max-width: 100%;
       position: absolute;
       padding: 6px;
       top: 25%;
